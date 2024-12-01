@@ -1,0 +1,4157 @@
+<html>
+<head>
+<title></title>
+
+</head>
+<style>
+td
+{
+	border:solid 1px #F00;
+}
+.green
+{
+	border:solid 4px;
+	border-color:green;
+}
+	.red
+{
+	border:solid 4px;
+	border-color:red;
+}
+.aa
+{
+	font-size:20px;	
+}
+
+</style>
+<body>
+<img src="s.jpg" width="100%" height="30%" />
+<br /><br />
+<div style=" border:solid 12px; border-color:#C00; position:absolute; left:32%">
+<table cellpadding="10px" cellspacing="0px" border="3px" class="aa">
+<tr>
+<td><select id="s1" onChange="b1()">
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s2" onChange="b2()">
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s3" onChange="b3()" >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s4" onChange="b4()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s5"  onChange="b5()" >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s6"  onChange="b6()" >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s7"  onChange="b7()" >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s8"  onChange="b8()" >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s9"  onChange="b9()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+</tr>
+
+<tr>
+<td><select id="s10" onChange="b10()">
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s11" onChange="b11()">
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s12" onChange="b12()">
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s13" onChange="b13()">
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s14" onChange="b14()">
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s15" onChange="b15()">
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s16" onChange="b16()">
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s17" onChange="b17()">
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s18" onChange="b18()">
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+</tr>
+
+
+
+
+
+
+<tr>
+<td><select id="s19"  onChange="b19()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s20"  onChange="b20()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s21"  onChange="b21()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s22"  onChange="b22()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s23"  onChange="b23()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s24"  onChange="b24()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s25"  onChange="b25()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s26"  onChange="b26()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s27"  onChange="b27()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+</tr>
+
+
+
+
+
+<tr>
+<td><select id="s28"  onChange="b28()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s29"  onChange="b29()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s30"  onChange="b30()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s31"  onChange="b31()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s32"  onChange="b32()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s33"  onChange="b33()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s34"  onChange="b34()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s35"  onChange="b35()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s36"  onChange="b36()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+</tr>
+
+
+
+
+
+<tr>
+<td><select id="s37"  onChange="b37()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s38"  onChange="b38()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s39"  onChange="b39()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s40"  onChange="b40()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s41"  onChange="b41()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s42"  onChange="b42()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s43"  onChange="b43()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s44"  onChange="b44()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s45"  onChange="b45()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+</tr>
+
+
+<tr>
+<td><select id="s46"  onChange="b46()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s47"  onChange="b47()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s48"  onChange="b48()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s49"  onChange="b49()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s50"  onChange="b50()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s51"  onChange="b51()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s52"  onChange="b52()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s53"  onChange="b53()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s54"  onChange="b54()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+</tr>
+
+<tr>
+<td><select id="s55"  onChange="b55()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s56"  onChange="b56()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s57"  onChange="b57()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s58"  onChange="b58()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s59"  onChange="b59()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s60"  onChange="b60()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s61"  onChange="b61()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s62"  onChange="b62()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s63"  onChange="b63()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+</tr>
+
+
+<tr>
+<td><select id="s64"  onChange="b64()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s65"  onChange="b65()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s66"  onChange="b66()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s67"  onChange="b67()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s68"  onChange="b68()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s69"  onChange="b69()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s70"  onChange="b70()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s71"  onChange="b71()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s72"  onChange="b72()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+</tr>
+
+
+
+<tr>
+<td><select id="s73"  onChange="b73()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s74"  onChange="b74()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s75"  onChange="b75()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s76"  onChange="b76()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s77"  onChange="b77()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s78"  onChange="b78()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s79"  onChange="b79()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s80"  onChange="b80()"  >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+<td><select id="s81"  onChange="b81()" >
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select></td>
+</tr>
+
+
+</table></div>
+
+</body>
+<script>
+
+function b1()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s10=document.getElementById("s10").value;
+ s11=document.getElementById("s11").value;
+ s12=document.getElementById("s12").value;
+ s19=document.getElementById("s19").value;
+ s20=document.getElementById("s20").value;
+ s21=document.getElementById("s21").value;
+ s28=document.getElementById("s28").value;
+ s37=document.getElementById("s37").value;
+ s46=document.getElementById("s46").value;
+ s55=document.getElementById("s55").value;
+ s64=document.getElementById("s64").value;
+ s73=document.getElementById("s73").value;
+ 
+
+	 if(s1==s2||s1==s3||s1==s4||s1==s5||s1==s6||s1==s7||s1==s8||s1==s9||s1==s10||s1==s11||s1==s12
+        ||s1==s19||s1==s20||s1==s21||s1==s28||s1==s37||s1==s46||s1==s55||s1==s64||s1==s73)
+	 {
+		 document.getElementById("s1").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s1").className="green";
+	 }
+ }
+function b2()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s10=document.getElementById("s10").value;
+ s11=document.getElementById("s11").value;
+ s12=document.getElementById("s12").value;
+ s19=document.getElementById("s19").value;
+ s20=document.getElementById("s20").value;
+ s21=document.getElementById("s21").value;
+ s29=document.getElementById("s29").value;
+ s38=document.getElementById("s38").value;
+ s47=document.getElementById("s47").value;
+ s56=document.getElementById("s56").value;
+ s65=document.getElementById("s65").value;
+ s74=document.getElementById("s74").value;
+ 
+ 
+
+	 if(s2==s1||s2==s3||s2==s4||s2==s5||s2==s6||s2==s7||s2==s8||s2==s9
+		||s2==s10||s2==s11||s2==s12||s2==s19||s2==s20||s2==s21||s2==s29||s2==s38||s2==s47||s2==s56||s2==s65||s2==s74)
+	 {
+		 document.getElementById("s2").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s2").className="green";
+	 }
+ }
+function b3()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s10=document.getElementById("s10").value;
+ s11=document.getElementById("s11").value;
+ s12=document.getElementById("s12").value;
+ s19=document.getElementById("s19").value;
+ s20=document.getElementById("s20").value;
+ s21=document.getElementById("s21").value;
+ s30=document.getElementById("s30").value;
+ s39=document.getElementById("s39").value;
+ s48=document.getElementById("s48").value;
+ s57=document.getElementById("s57").value;
+ s66=document.getElementById("s66").value;
+ s75=document.getElementById("s75").value;
+ 
+ 
+
+	 if(s3==s1||s3==s2||s3==s4||s3==s5||s3==s6||s3==s7||s3==s8||s3==s9
+	 	||s3==s10||s3==s11||s3==s12||s3==s19||s3==s20||s3==s21||s3==s30||s3==s39||s3==s48||s3==s57||s3==s66||s3==s75)
+	
+	 {
+		 document.getElementById("s3").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s3").className="green";
+	 }
+ }
+function b4()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s13=document.getElementById("s13").value;
+ s14=document.getElementById("s14").value;
+ s15=document.getElementById("s15").value;
+ s22=document.getElementById("s22").value;
+ s23=document.getElementById("s23").value;
+ s24=document.getElementById("s24").value;
+ s31=document.getElementById("s31").value;
+ s40=document.getElementById("s40").value;
+ s49=document.getElementById("s49").value;
+ s58=document.getElementById("s58").value;
+ s67=document.getElementById("s67").value;
+ s76=document.getElementById("s76").value;
+ 
+ 
+
+	 if(s4==s1||s4==s2||s4==s3||s4==s5||s4==s6||s4==s7||s4==s8||s4==s9
+	 	||s4==s13||s4==s14||s4==s15||s4==s22||s4==s23||s4==s24||s4==s31||s4==s40||s4==s49||s4==s58||s4==s67||s4==s76)
+		 {
+		 document.getElementById("s4").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s4").className="green";
+	 }
+ }
+
+function b5()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s13=document.getElementById("s13").value;
+ s14=document.getElementById("s14").value;
+ s15=document.getElementById("s15").value;
+ s22=document.getElementById("s22").value;
+ s23=document.getElementById("s23").value;
+ s24=document.getElementById("s24").value;
+ s32=document.getElementById("s32").value;
+ s41=document.getElementById("s41").value;
+ s50=document.getElementById("s50").value;
+ s59=document.getElementById("s59").value;
+ s68=document.getElementById("s68").value;
+ s77=document.getElementById("s77").value;
+ 
+ 
+
+	 if(s5==s1||s5==s2||s5==s3||s5==s4||s5==s6||s5==s7||s5==s8||s5==s9
+	 	 	||s5==s13||s5==s14||s5==s15||s5==s22||s5==s23||s5==s24||s5==s32||s5==s41||s5==s50||s5==s59||s5==s68||s5==s77)
+
+	 {
+		 document.getElementById("s5").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s5").className="green";
+	 }
+ }
+
+function b6()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s13=document.getElementById("s13").value;
+ s14=document.getElementById("s14").value;
+ s15=document.getElementById("s15").value;
+ s22=document.getElementById("s22").value;
+ s23=document.getElementById("s23").value;
+ s24=document.getElementById("s24").value;
+ s33=document.getElementById("s33").value;
+ s42=document.getElementById("s42").value;
+ s51=document.getElementById("s51").value;
+ s60=document.getElementById("s60").value;
+ s69=document.getElementById("s69").value;
+ s78=document.getElementById("s78").value;
+ 
+ 
+
+	 if(s6==s1||s6==s2||s6==s3||s6==s4||s6==s5||s6==s7||s6==s8||s6==s9
+	  	 	||s6==s13||s6==s14||s6==s15||s6==s22||s6==s23||s6==s24||s6==s33||s6==s42||s6==s51||s6==s60||s6==s69||s6==s78)
+	 {
+		 document.getElementById("s6").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s6").className="green";
+	 }
+ }
+
+function b7()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s16=document.getElementById("s16").value;
+ s17=document.getElementById("s17").value;
+ s18=document.getElementById("s18").value;
+ s25=document.getElementById("s25").value;
+ s26=document.getElementById("s26").value;
+ s27=document.getElementById("s27").value;
+ s34=document.getElementById("s34").value;
+ s43=document.getElementById("s43").value;
+ s52=document.getElementById("s52").value;
+ s61=document.getElementById("s61").value;
+ s70=document.getElementById("s70").value;
+ s79=document.getElementById("s79").value;
+ 
+ 
+
+	 if(s7==s1||s7==s2||s7==s3||s7==s4||s7==s5||s7==s6||s7==s8||s7==s9
+	   	 	||s7==s16||s7==s17||s7==s18||s7==s25||s7==s26||s7==s27||s7==s34||s7==s43||s7==s52||s7==s61||s7==s70||s7==s79)
+	 {
+		 document.getElementById("s7").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s7").className="green";
+	 }
+ }
+
+function b8()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s16=document.getElementById("s16").value;
+ s17=document.getElementById("s17").value;
+ s18=document.getElementById("s18").value;
+ s25=document.getElementById("s25").value;
+ s26=document.getElementById("s26").value;
+ s27=document.getElementById("s27").value;
+ s35=document.getElementById("s35").value;
+ s44=document.getElementById("s44").value;
+ s53=document.getElementById("s53").value;
+ s62=document.getElementById("s62").value;
+ s71=document.getElementById("s71").value;
+ s80=document.getElementById("s80").value;
+ 
+ 
+
+	 if(s8==s1||s8==s2||s8==s3||s8==s5||s8==s6||s8==s7||s8==s4||s8==s9
+	  	||s8==s16||s8==s17||s8==s18||s8==s25||s8==s26||s8==s27||s8==s35||s8==s44||s8==s53||s8==s62||s8==s71||s8==s80)
+	 	 {
+		 document.getElementById("s8").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s8").className="green";
+	 }
+ }
+
+function b9()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s16=document.getElementById("s16").value;
+ s17=document.getElementById("s17").value;
+ s18=document.getElementById("s18").value;
+ s25=document.getElementById("s25").value;
+ s26=document.getElementById("s26").value;
+ s27=document.getElementById("s27").value;
+ s36=document.getElementById("s36").value;
+ s45=document.getElementById("s45").value;
+ s54=document.getElementById("s54").value;
+ s63=document.getElementById("s63").value;
+ s72=document.getElementById("s72").value;
+ s81=document.getElementById("s81").value;
+ 
+ 
+
+	 if(s9==s1||s9==s2||s9==s3||s9==s5||s9==s6||s9==s7||s9==s8||s9==s4
+	  	||s9==s16||s9==s17||s9==s18||s9==s25||s9==s26||s9==s27||s9==s36||s9==s45||s9==s54||s9==s63||s9==s72||s9==s81)
+	 
+	 {
+		 document.getElementById("s9").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s9").className="green";
+	 }
+ }
+
+
+
+
+
+
+
+
+
+function b10()
+ {
+	 
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s13=document.getElementById("s13").value;
+s14=document.getElementById("s14").value;
+s15=document.getElementById("s15").value;
+s16=document.getElementById("s16").value;
+s17=document.getElementById("s17").value;
+s18=document.getElementById("s18").value;
+ s10=document.getElementById("s10").value;
+ s11=document.getElementById("s11").value;
+ s12=document.getElementById("s12").value;
+ s19=document.getElementById("s19").value;
+ s20=document.getElementById("s20").value;
+ s21=document.getElementById("s21").value;
+ s28=document.getElementById("s28").value;
+ s37=document.getElementById("s37").value;
+ s46=document.getElementById("s46").value;
+ s55=document.getElementById("s55").value;
+ s64=document.getElementById("s64").value;
+ s73=document.getElementById("s73").value;
+ 
+
+	 if(s10==s1||s10==s2||s10==s3||s10==s13||s10==s14||s10==s15||s10==s16||s10==s17||s10==s18
+	 ||s10==s11||s10==s12||s10==s19||s10==s20||s10==s21||s10==s28||s10==s37||s10==s46||s10==s55||s10==s64||s10==s73)
+	 {
+		 document.getElementById("s10").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s10").className="green";
+	 }
+ }
+function b11()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s13=document.getElementById("s13").value;
+s14=document.getElementById("s14").value;
+s15=document.getElementById("s15").value;
+s16=document.getElementById("s16").value;
+s17=document.getElementById("s17").value;
+s18=document.getElementById("s18").value;
+ s10=document.getElementById("s10").value;
+ s11=document.getElementById("s11").value;
+ s12=document.getElementById("s12").value;
+ s19=document.getElementById("s19").value;
+ s20=document.getElementById("s20").value;
+ s21=document.getElementById("s21").value;
+ s29=document.getElementById("s29").value;
+ s38=document.getElementById("s38").value;
+ s47=document.getElementById("s47").value;
+ s56=document.getElementById("s56").value;
+ s65=document.getElementById("s65").value;
+ s74=document.getElementById("s74").value;
+ 
+ 
+
+	 if(s11==s1||s11==s3||s11==s13||s11==s14||s11==s15||s11==s16||s11==s17||s11==s18
+		||s11==s10||s11==s2||s11==s12||s11==s19||s11==s20||s11==s21||s11==s29||s11==s38||s11==s47||s11==s56||s11==s65||s11==s74)
+	 {
+		 document.getElementById("s11").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s11").className="green";
+	 }
+ }
+function b12()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s13=document.getElementById("s13").value;
+s14=document.getElementById("s14").value;
+s15=document.getElementById("s15").value;
+s16=document.getElementById("s16").value;
+s17=document.getElementById("s17").value;
+s18=document.getElementById("s18").value;
+ s10=document.getElementById("s10").value;
+ s11=document.getElementById("s11").value;
+ s12=document.getElementById("s12").value;
+ s19=document.getElementById("s19").value;
+ s20=document.getElementById("s20").value;
+ s21=document.getElementById("s21").value;
+ s30=document.getElementById("s30").value;
+ s39=document.getElementById("s39").value;
+ s48=document.getElementById("s48").value;
+ s57=document.getElementById("s57").value;
+ s66=document.getElementById("s66").value;
+ s75=document.getElementById("s75").value;
+ 
+ 
+
+	 if(s12==s1||s12==s2||s12==s13||s12==s15||s12==s16||s12==s17||s12==s18||s12==s14
+	 	||s12==s10||s12==s11||s12==s3||s12==s19||s12==s20||s12==s21||s12==s30||s12==s39||s12==s48||s12==s57||s12==s66||s12==s75)
+	
+	 {
+		 document.getElementById("s12").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s12").className="green";
+	 }
+ }
+function b13()
+ {
+s10=document.getElementById("s10").value;
+s11=document.getElementById("s11").value;
+s12=document.getElementById("s12").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s16=document.getElementById("s16").value;
+s17=document.getElementById("s17").value;
+s18=document.getElementById("s18").value;
+ s13=document.getElementById("s13").value;
+ s14=document.getElementById("s14").value;
+ s15=document.getElementById("s15").value;
+ s22=document.getElementById("s22").value;
+ s23=document.getElementById("s23").value;
+ s24=document.getElementById("s24").value;
+ s31=document.getElementById("s31").value;
+ s40=document.getElementById("s40").value;
+ s49=document.getElementById("s49").value;
+ s58=document.getElementById("s58").value;
+ s67=document.getElementById("s67").value;
+ s76=document.getElementById("s76").value;
+ 
+ 
+
+	 if(s13==s10||s13==s11||s13==s12||s13==s5||s13==s6||s13==s17||s13==s4||s13==s16
+	 	||s13==s18||s13==s14||s13==s15||s13==s22||s13==s23||s13==s24||s13==s31||s13==s40||s13==s49||s13==s58||s13==s67||s13==s76)
+		 {
+		 document.getElementById("s13").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s13").className="green";
+	 }
+ }
+
+function b14()
+ {
+s10=document.getElementById("s10").value;
+s11=document.getElementById("s11").value;
+s12=document.getElementById("s12").value;
+s17=document.getElementById("s17").value;
+s18=document.getElementById("s18").value;
+s16=document.getElementById("s16").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+ s13=document.getElementById("s13").value;
+ s14=document.getElementById("s14").value;
+ s15=document.getElementById("s15").value;
+ s22=document.getElementById("s22").value;
+ s23=document.getElementById("s23").value;
+ s24=document.getElementById("s24").value;
+ s32=document.getElementById("s32").value;
+ s41=document.getElementById("s41").value;
+ s50=document.getElementById("s50").value;
+ s59=document.getElementById("s59").value;
+ s68=document.getElementById("s68").value;
+ s77=document.getElementById("s77").value;
+ 
+ 
+
+	 if(s14==s10||s14==s11||s14==s12||s14==s4||s14==s5||s14==s6||s14==s18||s14==s17
+	 	 	||s14==s13||s14==s16||s14==s15||s14==s22||s14==s23||s14==s24||s14==s32||s14==s41||s14==s50||s14==s59||s14==s68||s14==s77)
+
+	 {
+		 document.getElementById("s14").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s14").className="green";
+	 }
+ }
+
+function b15()
+ {
+s10=document.getElementById("s10").value;
+s11=document.getElementById("s11").value;
+s12=document.getElementById("s12").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s17=document.getElementById("s17").value;
+s18=document.getElementById("s18").value;
+s16=document.getElementById("s16").value;
+ s13=document.getElementById("s13").value;
+ s14=document.getElementById("s14").value;
+ s15=document.getElementById("s15").value;
+ s22=document.getElementById("s22").value;
+ s23=document.getElementById("s23").value;
+ s24=document.getElementById("s24").value;
+ s33=document.getElementById("s33").value;
+ s42=document.getElementById("s42").value;
+ s51=document.getElementById("s51").value;
+ s60=document.getElementById("s60").value;
+ s69=document.getElementById("s69").value;
+ s78=document.getElementById("s78").value;
+ 
+ 
+
+	 if(s15==s10||s15==s11||s15==s12||s15==s4||s15==s5||s15==s6||s15==s18||s15==s17
+	  	 	||s15==s13||s15==s14||s15==s16||s15==s22||s15==s23||s15==s24||s15==s33||s15==s42||s15==s51||s15==s60||s15==s69||s15==s78)
+	 {
+		 document.getElementById("s15").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s15").className="green";
+	 }
+ }
+
+function b16()
+ {
+s10=document.getElementById("s10").value;
+s11=document.getElementById("s11").value;
+s12=document.getElementById("s12").value;
+s13=document.getElementById("s13").value;
+s14=document.getElementById("s14").value;
+s15=document.getElementById("s15").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s16=document.getElementById("s16").value;
+ s17=document.getElementById("s17").value;
+ s18=document.getElementById("s18").value;
+ s25=document.getElementById("s25").value;
+ s26=document.getElementById("s26").value;
+ s27=document.getElementById("s27").value;
+ s34=document.getElementById("s34").value;
+ s43=document.getElementById("s43").value;
+ s52=document.getElementById("s52").value;
+ s61=document.getElementById("s61").value;
+ s70=document.getElementById("s70").value;
+ s79=document.getElementById("s79").value;
+ 
+ 
+
+	 if(s16==s11||s16==s12||s16==s13||s16==s14||s16==s15||s16==s10||s16==s8||s16==s9
+	   	 	||s16==s7||s16==s17||s16==s18||s16==s25||s16==s26||s16==s27||s16==s34||s16==s43||s16==s52||s16==s61||s16==s70||s16==s79)
+	 {
+		 document.getElementById("s16").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s16").className="green";
+	 }
+ }
+
+function b17()
+ {
+s10=document.getElementById("s10").value;
+s11=document.getElementById("s11").value;
+s12=document.getElementById("s12").value;
+s13=document.getElementById("s13").value;
+s14=document.getElementById("s14").value;
+s15=document.getElementById("s15").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s16=document.getElementById("s16").value;
+ s17=document.getElementById("s17").value;
+ s18=document.getElementById("s18").value;
+ s25=document.getElementById("s25").value;
+ s26=document.getElementById("s26").value;
+ s27=document.getElementById("s27").value;
+ s35=document.getElementById("s35").value;
+ s44=document.getElementById("s44").value;
+ s53=document.getElementById("s53").value;
+ s62=document.getElementById("s62").value;
+ s71=document.getElementById("s71").value;
+ s80=document.getElementById("s80").value;
+ 
+ 
+
+	 if(s17==s11||s17==s12||s17==s13||s17==s15||s17==s10||s17==s7||s17==s14||s17==s9
+	  	||s17==s16||s17==s8||s17==s18||s17==s25||s17==s26||s17==s27||s17==s35||s17==s44||s17==s53||s17==s62||s17==s71||s17==s80)
+	 	 {
+		 document.getElementById("s17").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s17").className="green";
+	 }
+ }
+
+function b18()
+ {
+s10=document.getElementById("s10").value;
+s11=document.getElementById("s11").value;
+s12=document.getElementById("s12").value;
+s13=document.getElementById("s13").value;
+s14=document.getElementById("s14").value;
+s15=document.getElementById("s15").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s16=document.getElementById("s16").value;
+ s17=document.getElementById("s17").value;
+ s18=document.getElementById("s18").value;
+ s25=document.getElementById("s25").value;
+ s26=document.getElementById("s26").value;
+ s27=document.getElementById("s27").value;
+ s36=document.getElementById("s36").value;
+ s45=document.getElementById("s45").value;
+ s54=document.getElementById("s54").value;
+ s63=document.getElementById("s63").value;
+ s72=document.getElementById("s72").value;
+ s81=document.getElementById("s81").value;
+ 
+ 
+
+	 if(s18==s11||s18==s12||s18==s13||s18==s15||s18==s10||s18==s7||s18==s8||s18==s9
+	  	||s18==s16||s18==s17||s18==s14||s18==s25||s18==s26||s18==s27||s18==s36||s18==s45||s18==s54||s18==s63||s18==s72||s18==s81)
+	 
+	 {
+		 document.getElementById("s18").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s18").className="green";
+	 }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function b19()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s22=document.getElementById("s22").value;
+s23=document.getElementById("s23").value;
+s24=document.getElementById("s24").value;
+s25=document.getElementById("s25").value;
+s26=document.getElementById("s26").value;
+s27=document.getElementById("s27").value;
+ s10=document.getElementById("s10").value;
+ s11=document.getElementById("s11").value;
+ s12=document.getElementById("s12").value;
+ s19=document.getElementById("s19").value;
+ s20=document.getElementById("s20").value;
+ s21=document.getElementById("s21").value;
+ s28=document.getElementById("s28").value;
+ s37=document.getElementById("s37").value;
+ s46=document.getElementById("s46").value;
+ s55=document.getElementById("s55").value;
+ s64=document.getElementById("s64").value;
+ s73=document.getElementById("s73").value;
+ 
+
+	 if(s19==s2||s19==s3||s19==s22||s19==s25||s19==s26||s19==s27||s19==s23||s19==s24||s19==s10
+	 ||s19==s11||s19==s12||s19==s1||s19==s20||s19==s21||s19==s28||s19==s37||s19==s46||s19==s55||s19==s64||s19==s73)
+	 {
+		 document.getElementById("s19").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s19").className="green";
+	 }
+ }
+function b20()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s22=document.getElementById("s22").value;
+s23=document.getElementById("s23").value;
+s24=document.getElementById("s24").value;
+s25=document.getElementById("s25").value;
+s26=document.getElementById("s26").value;
+s27=document.getElementById("s27").value;
+ s10=document.getElementById("s10").value;
+ s11=document.getElementById("s11").value;
+ s12=document.getElementById("s12").value;
+ s19=document.getElementById("s19").value;
+ s20=document.getElementById("s20").value;
+ s21=document.getElementById("s21").value;
+ s29=document.getElementById("s29").value;
+ s38=document.getElementById("s38").value;
+ s47=document.getElementById("s47").value;
+ s56=document.getElementById("s56").value;
+ s65=document.getElementById("s65").value;
+ s74=document.getElementById("s74").value;
+ 
+ 
+
+	 if(s20==s1||s20==s3||s20==s22||s20==s25||s20==s26||s20==s27||s20==s23||s20==s24
+		||s20==s10||s20==s11||s20==s12||s20==s19||s20==s2||s20==s21||s20==s29||s20==s38||s20==s47||s20==s56||s20==s65||s20==s74)
+	 {
+		 document.getElementById("s20").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s20").className="green";
+	 }
+ }
+function b21()
+ {
+s1=document.getElementById("s1").value;
+s2=document.getElementById("s2").value;
+s3=document.getElementById("s3").value;
+s22=document.getElementById("s22").value;
+s23=document.getElementById("s23").value;
+s24=document.getElementById("s24").value;
+s25=document.getElementById("s25").value;
+s26=document.getElementById("s26").value;
+s27=document.getElementById("s27").value;
+ s10=document.getElementById("s10").value;
+ s11=document.getElementById("s11").value;
+ s12=document.getElementById("s12").value;
+ s19=document.getElementById("s19").value;
+ s20=document.getElementById("s20").value;
+ s21=document.getElementById("s21").value;
+ s30=document.getElementById("s30").value;
+ s39=document.getElementById("s39").value;
+ s48=document.getElementById("s48").value;
+ s57=document.getElementById("s57").value;
+ s66=document.getElementById("s66").value;
+ s75=document.getElementById("s75").value;
+ 
+ 
+
+	 if(s21==s1||s21==s2||s21==s3||s21==s22||s21==s23||s21==s24||s21==s25||s21==s26
+	 	||s21==s10||s21==s11||s21==s12||s21==s19||s21==s20||s21==s27||s21==s30||s21==s39||s21==s48||s21==s57||s21==s66||s21==s75)
+	
+	 {
+		 document.getElementById("s21").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s21").className="green";
+	 }
+ }
+function b22()
+ {
+s19=document.getElementById("s19").value;
+s20=document.getElementById("s20").value;
+s21=document.getElementById("s21").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s25=document.getElementById("s25").value;
+s26=document.getElementById("s26").value;
+s27=document.getElementById("s27").value;
+ s13=document.getElementById("s13").value;
+ s14=document.getElementById("s14").value;
+ s15=document.getElementById("s15").value;
+ s22=document.getElementById("s22").value;
+ s23=document.getElementById("s23").value;
+ s24=document.getElementById("s24").value;
+ s31=document.getElementById("s31").value;
+ s40=document.getElementById("s40").value;
+ s49=document.getElementById("s49").value;
+ s58=document.getElementById("s58").value;
+ s67=document.getElementById("s67").value;
+ s76=document.getElementById("s76").value;
+ 
+ 
+
+	 if(s22==s19||s22==s20||s22==s21||s22==s5||s22==s6||s22==s25||s22==s26||s22==s27
+	 	||s22==s13||s22==s14||s22==s15||s22==s4||s22==s23||s22==s24||s22==s31||s22==s40||s22==s49||s22==s58||s22==s67||s22==s76)
+		 {
+		 document.getElementById("s22").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s22").className="green";
+	 }
+ }
+
+function b23()
+ {
+s19=document.getElementById("s19").value;
+s20=document.getElementById("s20").value;
+s21=document.getElementById("s21").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s25=document.getElementById("s25").value;
+s26=document.getElementById("s26").value;
+s27=document.getElementById("s27").value;
+ s13=document.getElementById("s13").value;
+ s14=document.getElementById("s14").value;
+ s15=document.getElementById("s15").value;
+ s22=document.getElementById("s22").value;
+ s23=document.getElementById("s23").value;
+ s24=document.getElementById("s24").value;
+ s32=document.getElementById("s32").value;
+ s41=document.getElementById("s41").value;
+ s50=document.getElementById("s50").value;
+ s59=document.getElementById("s59").value;
+ s68=document.getElementById("s68").value;
+ s77=document.getElementById("s77").value;
+ 
+ 
+
+	 if(s23==s19||s23==s20||s23==s21||s23==s4||s23==s6||s23==s25|s23==s26||s23==s27
+	 	 	||s23==s13||s23==s14||s23==s15||s23==s22||s23==s5||s23==s24||s23==s32||s23==s41||s23==s50||s23==s59||s23==s68||s23==s77)
+
+	 {
+		 document.getElementById("s23").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s23").className="green";
+	 }
+ }
+
+function b24()
+ {
+s19=document.getElementById("s19").value;
+s20=document.getElementById("s20").value;
+s21=document.getElementById("s21").value;
+s4=document.getElementById("s4").value;
+s5=document.getElementById("s5").value;
+s6=document.getElementById("s6").value;
+s25=document.getElementById("s25").value;
+s26=document.getElementById("s26").value;
+s27=document.getElementById("s27").value;
+ s13=document.getElementById("s13").value;
+ s14=document.getElementById("s14").value;
+ s15=document.getElementById("s15").value;
+ s22=document.getElementById("s22").value;
+ s23=document.getElementById("s23").value;
+ s24=document.getElementById("s24").value;
+ s33=document.getElementById("s33").value;
+ s42=document.getElementById("s42").value;
+ s51=document.getElementById("s51").value;
+ s60=document.getElementById("s60").value;
+ s69=document.getElementById("s69").value;
+ s78=document.getElementById("s78").value;
+ 
+ 
+
+	 if(s24==s19||s24==s20||s24==s21||s24==s4||s24==s5||s24==s25||s24==s26||s24==s27
+	  	 	||s24==s13||s24==s14||s24==s15||s24==s22||s24==s23||s24==s6||s24==s33||s24==s42||s24==s51||s24==s60||s24==s69||s24==s78)
+	 {
+		 document.getElementById("s24").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s24").className="green";
+	 }
+ }
+
+function b25()
+ {
+s19=document.getElementById("s19").value;
+s20=document.getElementById("s20").value;
+s21=document.getElementById("s21").value;
+s22=document.getElementById("s22").value;
+s23=document.getElementById("s23").value;
+s24=document.getElementById("s24").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s16=document.getElementById("s16").value;
+ s17=document.getElementById("s17").value;
+ s18=document.getElementById("s18").value;
+ s25=document.getElementById("s25").value;
+ s26=document.getElementById("s26").value;
+ s27=document.getElementById("s27").value;
+ s34=document.getElementById("s34").value;
+ s43=document.getElementById("s43").value;
+ s52=document.getElementById("s52").value;
+ s61=document.getElementById("s61").value;
+ s70=document.getElementById("s70").value;
+ s79=document.getElementById("s79").value;
+ 
+ 
+
+	 if(s25==s19||s25==s20||s25==s21||s25==s22||s25==s23||s25==s24||s25==s8||s25==s9
+	   	 	||s25==s16||s25==s17||s25==s18||s25==s7||s25==s26||s25==s27||s25==s34||s25==s43||s25==s52||s25==s61||s25==s70||s25==s79)
+	 {
+		 document.getElementById("s25").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s25").className="green";
+	 }
+ }
+
+function b26()
+ {
+s19=document.getElementById("s19").value;
+s20=document.getElementById("s20").value;
+s21=document.getElementById("s21").value;
+s22=document.getElementById("s22").value;
+s23=document.getElementById("s23").value;
+s24=document.getElementById("s24").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s16=document.getElementById("s16").value;
+ s17=document.getElementById("s17").value;
+ s18=document.getElementById("s18").value;
+ s25=document.getElementById("s25").value;
+ s26=document.getElementById("s26").value;
+ s27=document.getElementById("s27").value;
+ s35=document.getElementById("s35").value;
+ s44=document.getElementById("s44").value;
+ s53=document.getElementById("s53").value;
+ s62=document.getElementById("s62").value;
+ s71=document.getElementById("s71").value;
+ s80=document.getElementById("s80").value;
+ 
+ 
+
+	 if(s26==s19||s26==s20||s26==s21||s26==s22||s26==s23||s26==s7||s26==s8||s26==s9
+	  	||s26==s16||s26==s17||s26==s18||s26==s25||s26==s24||s26==s27||s26==s35||s26==s44||s26==s53||s26==s62||s26==s71||s26==s80)
+	 	 {
+		 document.getElementById("s26").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s26").className="green";
+	 }
+ }
+
+function b27()
+ {
+s19=document.getElementById("s19").value;
+s20=document.getElementById("s20").value;
+s21=document.getElementById("s21").value;
+s22=document.getElementById("s22").value;
+s23=document.getElementById("s23").value;
+s24=document.getElementById("s24").value;
+s7=document.getElementById("s7").value;
+s8=document.getElementById("s8").value;
+s9=document.getElementById("s9").value;
+ s16=document.getElementById("s16").value;
+ s17=document.getElementById("s17").value;
+ s18=document.getElementById("s18").value;
+ s25=document.getElementById("s25").value;
+ s26=document.getElementById("s26").value;
+ s27=document.getElementById("s27").value;
+ s36=document.getElementById("s36").value;
+ s45=document.getElementById("s45").value;
+ s54=document.getElementById("s54").value;
+ s63=document.getElementById("s63").value;
+ s72=document.getElementById("s72").value;
+ s81=document.getElementById("s81").value;
+ 
+ 
+
+	 if(s27==s19||s27==s20||s27==s21||s27==s22||s27==s23||s27==s7||s27==s8||s27==s9
+	  	||s27==s16||s27==s17||s27==s18||s27==s25||s27==s26||s27==s24||s27==s36||s27==s45||s27==s54||s27==s63||s27==s72||s27==s81)
+	 
+	 {
+		 document.getElementById("s27").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s27").className="green";
+	 }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function b28()
+ {
+s1=document.getElementById("s1").value;
+s29=document.getElementById("s29").value;
+s30=document.getElementById("s30").value;
+s38=document.getElementById("s38").value;
+s39=document.getElementById("s39").value;
+s47=document.getElementById("s47").value;
+s48=document.getElementById("s48").value;
+s31=document.getElementById("s31").value;
+s32=document.getElementById("s32").value;
+ s10=document.getElementById("s10").value;
+ s33=document.getElementById("s33").value;
+ s34=document.getElementById("s34").value;
+ s19=document.getElementById("s19").value;
+ s35=document.getElementById("s35").value;
+ s36=document.getElementById("s36").value;
+ s28=document.getElementById("s28").value;
+ s37=document.getElementById("s37").value;
+ s46=document.getElementById("s46").value;
+ s55=document.getElementById("s55").value;
+ s64=document.getElementById("s64").value;
+ s73=document.getElementById("s73").value;
+ 
+
+	 if(s28==s1||s28==s29||s28==s30||s28==s38||s28==s39||s28==s47||s28==s48||s28==s31||s28==s32
+	 ||s28==s10||s28==s33||s28==s34||s28==s19||s28==s37||s28==s35||s28==s36||s28==s46||s28==s55||s28==s64||s28==s73)
+	 {
+		 document.getElementById("s28").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s28").className="green";
+	 }
+ }
+function b29()
+ {
+s28=document.getElementById("s28").value;
+s30=document.getElementById("s30").value;
+s31=document.getElementById("s31").value;
+s32=document.getElementById("s32").value;
+s33=document.getElementById("s33").value;
+s34=document.getElementById("s34").value;
+s35=document.getElementById("s35").value;
+s36=document.getElementById("s36").value;
+s37=document.getElementById("s37").value;
+ s39=document.getElementById("s39").value;
+ s46=document.getElementById("s46").value;
+ s48=document.getElementById("s48").value;
+ s2=document.getElementById("s2").value;
+ s11=document.getElementById("s11").value;
+ s20=document.getElementById("s20").value;
+ s29=document.getElementById("s29").value;
+ s38=document.getElementById("s38").value;
+ s47=document.getElementById("s47").value;
+ s56=document.getElementById("s56").value;
+ s65=document.getElementById("s65").value;
+ s74=document.getElementById("s74").value;
+ 
+ 
+
+	 if(s29==s28||s29==s30||s29==s31||s29==s32||s29==s33||s29==s34||s29==s35||s29==s36
+		||s29==s37||s29==s39||s29==s46||s29==s48||s29==s20||s29==s2||s29==s11||s29==s38||s29==s47||s29==s56||s29==s65||s29==s74)
+	 {
+		 document.getElementById("s29").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s29").className="green";
+	 }
+ }
+function b30()
+ {
+s28=document.getElementById("s28").value;
+s30=document.getElementById("s30").value;
+s31=document.getElementById("s31").value;
+s32=document.getElementById("s32").value;
+s33=document.getElementById("s33").value;
+s34=document.getElementById("s34").value;
+s35=document.getElementById("s35").value;
+s36=document.getElementById("s36").value;
+s37=document.getElementById("s37").value;
+ s39=document.getElementById("s39").value;
+ s46=document.getElementById("s46").value;
+ s48=document.getElementById("s48").value;
+ s47=document.getElementById("s47").value;
+ s38=document.getElementById("s38").value;
+ s29=document.getElementById("s29").value;
+ s21=document.getElementById("s21").value;
+ s3=document.getElementById("s3").value;
+ s12=document.getElementById("s12").value;
+ s57=document.getElementById("s57").value;
+ s66=document.getElementById("s66").value;
+ s75=document.getElementById("s75").value;
+ 
+ 
+
+	 if(s30==s31||s30==s32||s30==s34||s30==s35||s30==s36||s30==s37||s30==s39||s30==s46
+	 	||s30==s48||s30==s47||s30==s12||s30==s38||s30==s29||s30==s21||s30==s33||s30==s3||s30==s28||s30==s57||s30==s66||s30==s75)
+	
+	 {
+		 document.getElementById("s30").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s30").className="green";
+	 }
+ }
+function b31()
+ {
+s28=document.getElementById("s28").value;
+s29=document.getElementById("s29").value;
+s30=document.getElementById("s30").value;
+s4=document.getElementById("s4").value;
+s51=document.getElementById("s51").value;
+s50=document.getElementById("s50").value;
+s41=document.getElementById("s41").value;
+s42=document.getElementById("s42").value;
+s32=document.getElementById("s32").value;
+ s33=document.getElementById("s33").value;
+ s34=document.getElementById("s34").value;
+ s35=document.getElementById("s35").value;
+ s36=document.getElementById("s36").value;
+ s13=document.getElementById("s13").value;
+ s22=document.getElementById("s22").value;
+ s31=document.getElementById("s31").value;
+ s40=document.getElementById("s40").value;
+ s49=document.getElementById("s49").value;
+ s58=document.getElementById("s58").value;
+ s67=document.getElementById("s67").value;
+ s76=document.getElementById("s76").value;
+ 
+ 
+
+	 if(s31==s51||s31==s28||s31==s29||s31==s30||s31==s4||s31==s50||s31==s41||s31==s42
+	 	||s31==s32||s31==s33||s31==s34||s31==s35||s31==s36||s31==s13||s31==s22||s31==s40||s31==s49||s31==s58||s31==s67||s31==s76)
+		 {
+		 document.getElementById("s31").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s31").className="green";
+	 }
+ }
+
+function b32()
+ {
+s31=document.getElementById("s31").value;
+s33=document.getElementById("s33").value;
+s40=document.getElementById("s40").value;
+s42=document.getElementById("s42").value;
+s5=document.getElementById("s5").value;
+s49=document.getElementById("s49").value;
+s51=document.getElementById("s51").value;
+s28=document.getElementById("s28").value;
+s29=document.getElementById("s29").value;
+ s30=document.getElementById("s30").value;
+ s34=document.getElementById("s34").value;
+ s35=document.getElementById("s35").value;
+ s36=document.getElementById("s36").value;
+ s14=document.getElementById("s14").value;
+ s23=document.getElementById("s23").value;
+ s32=document.getElementById("s32").value;
+ s41=document.getElementById("s41").value;
+ s50=document.getElementById("s50").value;
+ s59=document.getElementById("s59").value;
+ s68=document.getElementById("s68").value;
+ s77=document.getElementById("s77").value;
+ 
+ 
+
+	 if(s32==s31||s32==s33||s32==s40||s32==s42||s32==s5||s32==s49||s32==s51||s32==s28
+	 	 	||s32==s29||s32==s30||s32==s34||s32==s35||s32==s36||s32==s14||s32==s23||s32==s41||s32==s50||s32==s59||s32==s68||s32==s77)
+
+	 {
+		 document.getElementById("s32").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s32").className="green";
+	 }
+ }
+
+function b33()
+ {
+s28=document.getElementById("s28").value;
+s29=document.getElementById("s29").value;
+s30=document.getElementById("s30").value;
+s31=document.getElementById("s31").value;
+s32=document.getElementById("s32").value;
+s34=document.getElementById("s34").value;
+s35=document.getElementById("s35").value;
+s36=document.getElementById("s36").value;
+s40=document.getElementById("s40").value;
+ s41=document.getElementById("s41").value;
+ s15=document.getElementById("s15").value;
+ s49=document.getElementById("s49").value;
+ s50=document.getElementById("s50").value;
+ s6=document.getElementById("s6").value;
+ s24=document.getElementById("s24").value;
+ s33=document.getElementById("s33").value;
+ s42=document.getElementById("s42").value;
+ s51=document.getElementById("s51").value;
+ s60=document.getElementById("s60").value;
+ s69=document.getElementById("s69").value;
+ s78=document.getElementById("s78").value;
+ 
+ 
+
+	 if(s33==s28||s33==s29||s33==s30||s33==s31||s33==s32||s33==s24||s33==s34||s33==s35
+	  	 	||s33==s36||s33==s40||s33==s41||s33==s15||s33==s49||s33==s50||s33==s6||s33==s42||s33==s51||s33==s60||s33==s69||s33==s78)
+	 {
+		 document.getElementById("s33").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s33").className="green";
+	 }
+ }
+
+function b34()
+ {
+s28=document.getElementById("s28").value;
+s29=document.getElementById("s29").value;
+s30=document.getElementById("s30").value;
+s31=document.getElementById("s31").value;
+s32=document.getElementById("s32").value;
+s33=document.getElementById("s33").value;
+s7=document.getElementById("s7").value;
+s35=document.getElementById("s35").value;
+s36=document.getElementById("s36").value;
+ s16=document.getElementById("s16").value;
+ s44=document.getElementById("s44").value;
+ s45=document.getElementById("s45").value;
+ s25=document.getElementById("s25").value;
+ s53=document.getElementById("s53").value;
+ s54=document.getElementById("s54").value;
+ s34=document.getElementById("s34").value;
+ s43=document.getElementById("s43").value;
+ s52=document.getElementById("s52").value;
+ s61=document.getElementById("s61").value;
+ s70=document.getElementById("s70").value;
+ s79=document.getElementById("s79").value;
+ 
+ 
+
+	 if(s34==s28||s34==s29||s34==s30||s34==s31||s34==s32||s34==s7||s34==s35||s34==s36
+	   	 	||s34==s16||s34==s44||s34==s45||s34==s25||s34==s53||s34==s54||s34==s33||s34==s43||s34==s52||s34==s61||s34==s70||s34==s79)
+	 {
+		 document.getElementById("s34").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s34").className="green";
+	 }
+ }
+
+function b35()
+ {
+s28=document.getElementById("s28").value;
+s29=document.getElementById("s29").value;
+s30=document.getElementById("s30").value;
+s31=document.getElementById("s31").value;
+s32=document.getElementById("s32").value;
+s33=document.getElementById("s33").value;
+s34=document.getElementById("s34").value;
+s8=document.getElementById("s8").value;
+s36=document.getElementById("s36").value;
+ s43=document.getElementById("s43").value;
+ s17=document.getElementById("s17").value;
+ s45=document.getElementById("s45").value;
+ s52=document.getElementById("s52").value;
+ s26=document.getElementById("s26").value;
+ s54=document.getElementById("s54").value;
+ s35=document.getElementById("s35").value;
+ s44=document.getElementById("s44").value;
+ s53=document.getElementById("s53").value;
+ s62=document.getElementById("s62").value;
+ s71=document.getElementById("s71").value;
+ s80=document.getElementById("s80").value;
+ 
+ 
+
+	 if(s35==s28||s35==s29||s35==s30||s35==s31||s35==s32||s35==s33||s35==s34||s35==s8
+	  	||s35==s43||s35==s17||s35==s45||s35==s52||s35==s26||s35==s36||s35==s54||s35==s44||s35==s53||s35==s62||s35==s71||s35==s80)
+	 	 {
+		 document.getElementById("s35").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s35").className="green";
+	 }
+ }
+
+function b36()
+ {
+s28=document.getElementById("s28").value;
+s29=document.getElementById("s29").value;
+s30=document.getElementById("s30").value;
+s31=document.getElementById("s31").value;
+s32=document.getElementById("s32").value;
+s33=document.getElementById("s33").value;
+s34=document.getElementById("s34").value;
+s35=document.getElementById("s35").value;
+s9=document.getElementById("s9").value;
+ s43=document.getElementById("s43").value;
+ s44=document.getElementById("s44").value;
+ s18=document.getElementById("s18").value;
+ s52=document.getElementById("s52").value;
+ s53=document.getElementById("s53").value;
+ s27=document.getElementById("s27").value;
+ s36=document.getElementById("s36").value;
+ s45=document.getElementById("s45").value;
+ s54=document.getElementById("s54").value;
+ s63=document.getElementById("s63").value;
+ s72=document.getElementById("s72").value;
+ s81=document.getElementById("s81").value;
+ 
+ 
+
+	 if(s36==s28||s36==s29||s36==s31||s36==s32||s36==s33||s36==s34||s36==s35||s36==s9
+	  	||s36==s43||s36==s44||s36==s18||s36==s52||s36==s53||s36==s27||s36==s30||s36==s45||s36==s54||s36==s63||s36==s72||s36==s81)
+	 
+	 {
+		 document.getElementById("s36").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s36").className="green";
+	 }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function b37()
+ {
+s1=document.getElementById("s1").value;
+s29=document.getElementById("s29").value;
+s30=document.getElementById("s30").value;
+s38=document.getElementById("s38").value;
+s39=document.getElementById("s39").value;
+s47=document.getElementById("s47").value;
+s48=document.getElementById("s48").value;
+s40=document.getElementById("s40").value;
+s41=document.getElementById("s41").value;
+ s10=document.getElementById("s10").value;
+ s42=document.getElementById("s42").value;
+ s43=document.getElementById("s43").value;
+ s19=document.getElementById("s19").value;
+ s44=document.getElementById("s44").value;
+ s45=document.getElementById("s45").value;
+ s28=document.getElementById("s28").value;
+ s37=document.getElementById("s37").value;
+ s46=document.getElementById("s46").value;
+ s55=document.getElementById("s55").value;
+ s64=document.getElementById("s64").value;
+ s73=document.getElementById("s73").value;
+ 
+
+	 if(s37==s1||s37==s29||s37==s30||s37==s38||s37==s39||s37==s47||s37==s48||s37==s40||s37==s41
+	 ||s37==s10||s37==s42||s37==s43||s37==s19||s37==s44||s37==s45||s37==s28||s37==s46||s37==s55||s37==s64||s37==s73)
+	 {
+		 document.getElementById("s37").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s37").className="green";
+	 }
+ }
+function b38()
+ {
+s28=document.getElementById("s28").value;
+s30=document.getElementById("s30").value;
+s41=document.getElementById("s41").value;
+s42=document.getElementById("s42").value;
+s43=document.getElementById("s43").value;
+s44=document.getElementById("s44").value;
+s45=document.getElementById("s45").value;
+s40=document.getElementById("s40").value;
+s37=document.getElementById("s37").value;
+ s39=document.getElementById("s39").value;
+ s46=document.getElementById("s46").value;
+ s48=document.getElementById("s48").value;
+ s2=document.getElementById("s2").value;
+ s11=document.getElementById("s11").value;
+ s20=document.getElementById("s20").value;
+ s29=document.getElementById("s29").value;
+ s38=document.getElementById("s38").value;
+ s47=document.getElementById("s47").value;
+ s56=document.getElementById("s56").value;
+ s65=document.getElementById("s65").value;
+ s74=document.getElementById("s74").value;
+ 
+ 
+
+	 if(s38==s28||s38==s30||s38==s41||s38==s42||s38==s43||s38==s44||s38==s45||s38==s40
+		||s38==s37||s38==s39||s38==s46||s38==s48||s38==s20||s38==s2||s38==s11||s38==s29||s38==s47||s38==s56||s38==s65||s38==s74)
+	 {
+		 document.getElementById("s38").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s38").className="green";
+	 }
+ }
+function b39()
+ {
+s28=document.getElementById("s28").value;
+s30=document.getElementById("s30").value;
+s41=document.getElementById("s41").value;
+s42=document.getElementById("s42").value;
+s43=document.getElementById("s33").value;
+s44=document.getElementById("s44").value;
+s45=document.getElementById("s45").value;
+s40=document.getElementById("s40").value;
+s37=document.getElementById("s37").value;
+ s39=document.getElementById("s39").value;
+ s46=document.getElementById("s46").value;
+ s48=document.getElementById("s48").value;
+ s47=document.getElementById("s47").value;
+ s38=document.getElementById("s38").value;
+ s29=document.getElementById("s29").value;
+ s21=document.getElementById("s21").value;
+ s3=document.getElementById("s3").value;
+ s12=document.getElementById("s12").value;
+ s57=document.getElementById("s57").value;
+ s66=document.getElementById("s66").value;
+ s75=document.getElementById("s75").value;
+ 
+ 
+
+	 if(s39==s28||s39==s30||s39==s41||s39==s42||s39==s43||s39==s44||s39==s45||s39==s46
+	 	||s39==s48||s39==s40||s39==s47||s39==s38||s39==s29||s39==s21||s39==s37||s39==s3||s39==s12||s39==s57||s39==s66||s39==s75)
+	
+	 {
+		 document.getElementById("s39").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s39").className="green";
+	 }
+ }
+function b40()
+ {
+s37=document.getElementById("s37").value;
+s38=document.getElementById("s38").value;
+s39=document.getElementById("s39").value;
+s4=document.getElementById("s4").value;
+s51=document.getElementById("s51").value;
+s50=document.getElementById("s50").value;
+s41=document.getElementById("s41").value;
+s42=document.getElementById("s42").value;
+s32=document.getElementById("s32").value;
+ s33=document.getElementById("s33").value;
+ s43=document.getElementById("s43").value;
+ s44=document.getElementById("s44").value;
+ s45=document.getElementById("s45").value;
+ s13=document.getElementById("s13").value;
+ s22=document.getElementById("s22").value;
+ s31=document.getElementById("s31").value;
+ s40=document.getElementById("s40").value;
+ s49=document.getElementById("s49").value;
+ s58=document.getElementById("s58").value;
+ s67=document.getElementById("s67").value;
+ s76=document.getElementById("s76").value;
+ 
+ 
+
+	 if(s40==s37||s40==s38||s40==s39||s40==s51||s40==s4||s40==s50||s40==s41||s40==s42
+	 	||s40==s32||s40==s33||s40==s43||s40==s44||s40==s45||s40==s13||s40==s22||s40==s31||s40==s49||s40==s58||s40==s67||s40==s76)
+		 {
+		 document.getElementById("s40").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s40").className="green";
+	 }
+ }
+
+function b41()
+ {
+s31=document.getElementById("s31").value;
+s33=document.getElementById("s33").value;
+s40=document.getElementById("s40").value;
+s42=document.getElementById("s42").value;
+s5=document.getElementById("s5").value;
+s49=document.getElementById("s49").value;
+s51=document.getElementById("s51").value;
+s37=document.getElementById("s37").value;
+s38=document.getElementById("s38").value;
+ s39=document.getElementById("s39").value;
+ s43=document.getElementById("s43").value;
+ s44=document.getElementById("s44").value;
+ s45=document.getElementById("s45").value;
+ s14=document.getElementById("s14").value;
+ s23=document.getElementById("s23").value;
+ s32=document.getElementById("s32").value;
+ s41=document.getElementById("s41").value;
+ s50=document.getElementById("s50").value;
+ s59=document.getElementById("s59").value;
+ s68=document.getElementById("s68").value;
+ s77=document.getElementById("s77").value;
+ 
+ 
+
+	 if(s41==s31||s41==s33||s41==s40||s41==s42||s41==s5||s41==s49||s41==s51||s41==s37
+	 	 	||s41==s38||s41==s39||s41==s43||s41==s44||s41==s45||s41==s14||s41==s23||s41==s32||s41==s50||s41==s59||s41==s68||s41==s77)
+
+	 {
+		 document.getElementById("s41").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s41").className="green";
+	 }
+ }
+
+function b42()
+ {
+s37=document.getElementById("s37").value;
+s38=document.getElementById("s38").value;
+s39=document.getElementById("s39").value;
+s31=document.getElementById("s31").value;
+s32=document.getElementById("s32").value;
+s43=document.getElementById("s43").value;
+s44=document.getElementById("s44").value;
+s45=document.getElementById("s45").value;
+s40=document.getElementById("s40").value;
+ s41=document.getElementById("s41").value;
+ s15=document.getElementById("s15").value;
+ s49=document.getElementById("s49").value;
+ s50=document.getElementById("s50").value;
+ s6=document.getElementById("s6").value;
+ s24=document.getElementById("s24").value;
+ s33=document.getElementById("s33").value;
+ s42=document.getElementById("s42").value;
+ s51=document.getElementById("s51").value;
+ s60=document.getElementById("s60").value;
+ s69=document.getElementById("s69").value;
+ s78=document.getElementById("s78").value;
+
+
+
+	 if(s42==s37||s42==s38||s42==s39||s42==s31||s42==s32||s42==s43||s42==s44||s42==s45
+  	 	||s42==s24||s42==s40||s42==s41||s42==s15||s42==s49||s42==s50||s42==s6||s42==s33||s42==s51||s42==s60||s42==s69||s42==s78)
+	 {
+		 document.getElementById("s42").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s42").className="green";
+	 }
+ }
+
+function b43()
+ {
+s37=document.getElementById("s37").value;
+s38=document.getElementById("s38").value;
+s39=document.getElementById("s39").value;
+s40=document.getElementById("s40").value;
+s41=document.getElementById("s41").value;
+s42=document.getElementById("s42").value;
+s7=document.getElementById("s7").value;
+s35=document.getElementById("s35").value;
+s36=document.getElementById("s36").value;
+ s16=document.getElementById("s16").value;
+ s44=document.getElementById("s44").value;
+ s45=document.getElementById("s45").value;
+ s25=document.getElementById("s25").value;
+ s53=document.getElementById("s53").value;
+ s54=document.getElementById("s54").value;
+ s34=document.getElementById("s34").value;
+ s43=document.getElementById("s43").value;
+ s52=document.getElementById("s52").value;
+ s61=document.getElementById("s61").value;
+ s70=document.getElementById("s70").value;
+ s79=document.getElementById("s79").value;
+ 
+ 
+
+	 if(s43==s37||s43==s38||s43==s39||s43==s41||s43==s42||s43==s7||s43==s35||s43==s36
+	   	 ||s43==s16||s43==s44||s34==s45||s43==s25||s43==s53||s43==s54||s43==s33||s43==s34||s43==s52||s43==s61||s43==s70||s43==s79)
+	 {
+		 document.getElementById("s43").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s43").className="green";
+	 }
+ }
+
+function b44()
+ {
+s37=document.getElementById("s37").value;
+s38=document.getElementById("s38").value;
+s39=document.getElementById("s39").value;
+s40=document.getElementById("s40").value;
+s41=document.getElementById("s41").value;
+s42=document.getElementById("s42").value;
+s34=document.getElementById("s34").value;
+s8=document.getElementById("s8").value;
+s36=document.getElementById("s36").value;
+ s43=document.getElementById("s43").value;
+ s17=document.getElementById("s17").value;
+ s45=document.getElementById("s45").value;
+ s52=document.getElementById("s52").value;
+ s26=document.getElementById("s26").value;
+ s54=document.getElementById("s54").value;
+ s35=document.getElementById("s35").value;
+ s44=document.getElementById("s44").value;
+ s53=document.getElementById("s53").value;
+ s62=document.getElementById("s62").value;
+ s71=document.getElementById("s71").value;
+ s80=document.getElementById("s80").value;
+ 
+ 
+
+	 if(s44==s37||s44==s38||s44==s39||s44==s40||s44==s41||s44==s42||s44==s34||s44==s8
+	  	||s44==s43||s44==s17||s44==s45||s44==s52||s44==s26||s44==s36||s44==s54||s44==s35||s44==s53||s44==s62||s44==s71||s44==s80)
+	 {	
+		 document.getElementById("s44").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s44").className="green";
+	 }
+ }
+
+function b45()
+ {
+s37=document.getElementById("s37").value;
+s38=document.getElementById("s38").value;
+s39=document.getElementById("s39").value;
+s40=document.getElementById("s40").value;
+s41=document.getElementById("s41").value;
+s42=document.getElementById("s42").value;
+s34=document.getElementById("s34").value;
+s35=document.getElementById("s35").value;
+s9=document.getElementById("s9").value;
+ s43=document.getElementById("s43").value;
+ s44=document.getElementById("s44").value;
+ s18=document.getElementById("s18").value;
+ s52=document.getElementById("s52").value;
+ s53=document.getElementById("s53").value;
+ s27=document.getElementById("s27").value;
+ s36=document.getElementById("s36").value;
+ s45=document.getElementById("s45").value;
+ s54=document.getElementById("s54").value;
+ s63=document.getElementById("s63").value;
+ s72=document.getElementById("s72").value;
+ s81=document.getElementById("s81").value;
+ 
+ 
+	 if(s45==s37||s45==s38||s45==s39||s45==s40||s45==s41||s45==s34||s45==s35||s45==s9
+	  	||s45==s43||s45==s44||s45==s18||s45==s52||s45==s53||s45==s27||s45==s42||s45==s36||s45==s54||s45==s63||s45==s72||s45==s81)
+	 
+	 {
+		 document.getElementById("s45").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s45").className="green";
+	 }
+ }
+
+
+
+
+
+
+
+function b46()
+ {
+s1=document.getElementById("s1").value;
+s29=document.getElementById("s29").value;
+s30=document.getElementById("s30").value;
+s38=document.getElementById("s38").value;
+s39=document.getElementById("s39").value;
+s47=document.getElementById("s47").value;
+s48=document.getElementById("s48").value;
+s49=document.getElementById("s49").value;
+s50=document.getElementById("s50").value;
+ s10=document.getElementById("s10").value;
+ s52=document.getElementById("s52").value;
+ s53=document.getElementById("s53").value;
+ s19=document.getElementById("s19").value;
+ s51=document.getElementById("s51").value;
+ s54=document.getElementById("s54").value;
+ s28=document.getElementById("s28").value;
+ s37=document.getElementById("s37").value;
+ s46=document.getElementById("s46").value;
+ s55=document.getElementById("s55").value;
+ s64=document.getElementById("s64").value;
+ s73=document.getElementById("s73").value;
+ 
+
+	 if(s46==s1||s46==s29||s46==s30||s46==s38||s46==s39||s46==s47||s46==s48||s46==s49||s46==s50
+	 ||s46==s10||s46==s52||s46==s53||s46==s19||s46==s51||s46==s54||s46==s28||s46==s37||s46==s55||s46==s64||s46==s73)
+	 {
+		 document.getElementById("s46").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s46").className="green";
+	 }
+ }
+function b47()
+ {
+s28=document.getElementById("s28").value;
+s30=document.getElementById("s30").value;
+s49=document.getElementById("s49").value;
+s50=document.getElementById("s50").value;
+s51=document.getElementById("s51").value;
+s52=document.getElementById("s52").value;
+s53=document.getElementById("s53").value;
+s54=document.getElementById("s54").value;
+s37=document.getElementById("s37").value;
+ s39=document.getElementById("s39").value;
+ s46=document.getElementById("s46").value;
+ s48=document.getElementById("s48").value;
+ s2=document.getElementById("s2").value;
+ s11=document.getElementById("s11").value;
+ s20=document.getElementById("s20").value;
+ s29=document.getElementById("s29").value;
+ s38=document.getElementById("s38").value;
+ s47=document.getElementById("s47").value;
+ s56=document.getElementById("s56").value;
+ s65=document.getElementById("s65").value;
+ s74=document.getElementById("s74").value;
+ 
+ 
+
+	 if(s47==s28||s47==s30||s47==s49||s47==s50||s47==s51||s47==s52||s47==s53||s47==s54
+		||s47==s37||s47==s39||s47==s46||s47==s48||s47==s20||s47==s2||s47==s11||s47==s29||s47==s38||s47==s56||s47==s65||s47==s74)
+	 {
+		 document.getElementById("s47").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s47").className="green";
+	 }
+ }
+function b48()
+ {
+s28=document.getElementById("s28").value;
+s30=document.getElementById("s30").value;
+s49=document.getElementById("s49").value;
+s50=document.getElementById("s50").value;
+s51=document.getElementById("s51").value;
+s52=document.getElementById("s52").value;
+s53=document.getElementById("s53").value;
+s54=document.getElementById("s54").value;
+s37=document.getElementById("s37").value;
+ s39=document.getElementById("s39").value;
+ s46=document.getElementById("s46").value;
+ s48=document.getElementById("s48").value;
+ s47=document.getElementById("s47").value;
+ s38=document.getElementById("s38").value;
+ s29=document.getElementById("s29").value;
+ s21=document.getElementById("s21").value;
+ s3=document.getElementById("s3").value;
+ s12=document.getElementById("s12").value;
+ s57=document.getElementById("s57").value;
+ s66=document.getElementById("s66").value;
+ s75=document.getElementById("s75").value;
+ 
+ 
+
+	 if(s48==s28||s48==s30||s48==s49||s48==s50||s48==s51||s48==s52||s48==s53||s48==s46
+	 	||s48==s39||s48==s54||s48==s47||s48==s38||s48==s29||s48==s21||s48==s37||s48==s3||s48==s12||s48==s57||s48==s66||s48==s75)
+	
+	 {
+		 document.getElementById("s48").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s48").className="green";
+	 }
+ }
+function b49()
+ {
+s46=document.getElementById("s46").value;
+s47=document.getElementById("s47").value;
+s48=document.getElementById("s48").value;
+s4=document.getElementById("s4").value;
+s51=document.getElementById("s51").value;
+s50=document.getElementById("s50").value;
+s41=document.getElementById("s41").value;
+s42=document.getElementById("s42").value;
+s32=document.getElementById("s32").value;
+ s33=document.getElementById("s33").value;
+ s52=document.getElementById("s52").value;
+ s53=document.getElementById("s53").value;
+ s54=document.getElementById("s54").value;
+ s13=document.getElementById("s13").value;
+ s22=document.getElementById("s22").value;
+ s31=document.getElementById("s31").value;
+ s40=document.getElementById("s40").value;
+ s49=document.getElementById("s49").value;
+ s58=document.getElementById("s58").value;
+ s67=document.getElementById("s67").value;
+ s76=document.getElementById("s76").value;
+ 
+ 
+
+	 if(s49==s46||s49==s47||s49==s48||s49==s51||s49==s4||s49==s50||s49==s41||s49==s42
+	 	||s49==s32||s49==s33||s49==s52||s49==s53||s49==s54||s49==s13||s49==s22||s49==s31||s49==s40||s49==s58||s49==s67||s49==s76)
+		 {
+		 document.getElementById("s49").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s49").className="green";
+	 }
+ }
+
+function b50()
+ {
+s31=document.getElementById("s31").value;
+s33=document.getElementById("s33").value;
+s40=document.getElementById("s40").value;
+s42=document.getElementById("s42").value;
+s5=document.getElementById("s5").value;
+s49=document.getElementById("s49").value;
+s51=document.getElementById("s51").value;
+s46=document.getElementById("s46").value;
+s47=document.getElementById("s47").value;
+ s48=document.getElementById("s48").value;
+ s52=document.getElementById("s52").value;
+ s53=document.getElementById("s53").value;
+ s54=document.getElementById("s54").value;
+ s14=document.getElementById("s14").value;
+ s23=document.getElementById("s23").value;
+ s32=document.getElementById("s32").value;
+ s41=document.getElementById("s41").value;
+ s50=document.getElementById("s50").value;
+ s59=document.getElementById("s59").value;
+ s68=document.getElementById("s68").value;
+ s77=document.getElementById("s77").value;
+ 
+ 
+
+	 if(s50==s31||s50==s33||s50==s40||s50==s42||s50==s5||s50==s49||s50==s51||s50==s46
+	 	 	||s50==s47||s50==s48||s50==s52||s50==s53||s50==s54||s50==s14||s50==s23||s50==s32||s50==s41||s50==s59||s50==s68||s50==s77)
+
+	 {
+		 document.getElementById("s50").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s50").className="green";
+	 }
+ }
+
+function b51()
+ {
+s46=document.getElementById("s46").value;
+s47=document.getElementById("s47").value;
+s48=document.getElementById("s48").value;
+s31=document.getElementById("s31").value;
+s32=document.getElementById("s32").value;
+s52=document.getElementById("s52").value;
+s53=document.getElementById("s53").value;
+s54=document.getElementById("s54").value;
+s40=document.getElementById("s40").value;
+ s41=document.getElementById("s41").value;
+ s15=document.getElementById("s15").value;
+ s49=document.getElementById("s49").value;
+ s50=document.getElementById("s50").value;
+ s6=document.getElementById("s6").value;
+ s24=document.getElementById("s24").value;
+ s33=document.getElementById("s33").value;
+ s42=document.getElementById("s42").value;
+ s51=document.getElementById("s51").value;
+ s60=document.getElementById("s60").value;
+ s69=document.getElementById("s69").value;
+ s78=document.getElementById("s78").value;
+
+
+
+	 if(s51==s46||s51==s47||s51==s48||s51==s31||s51==s32||s51==s52||s51==s53||s51==s54
+  	 	||s51==s24||s51==s40||s51==s41||s51==s15||s51==s49||s51==s50||s51==s6||s51==s33||s51==s42||s51==s60||s51==s69||s51==s78)
+	 {
+		 document.getElementById("s51").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s51").className="green";
+	 }
+ }
+
+function b52()
+ {
+s47=document.getElementById("s47").value;
+s48=document.getElementById("s48").value;
+s49=document.getElementById("s49").value;
+s50=document.getElementById("s50").value;
+s51=document.getElementById("s51").value;
+s46=document.getElementById("s46").value;
+s7=document.getElementById("s7").value;
+s35=document.getElementById("s35").value;
+s36=document.getElementById("s36").value;
+ s16=document.getElementById("s16").value;
+ s44=document.getElementById("s44").value;
+ s45=document.getElementById("s45").value;
+ s25=document.getElementById("s25").value;
+ s53=document.getElementById("s53").value;
+ s54=document.getElementById("s54").value;
+ s34=document.getElementById("s34").value;
+ s43=document.getElementById("s43").value;
+ s52=document.getElementById("s52").value;
+ s61=document.getElementById("s61").value;
+ s70=document.getElementById("s70").value;
+ s79=document.getElementById("s79").value;
+ 
+ 
+
+	 if(s52==s47||s52==s48||s52==s49||s52==s51||s52==s50||s52==s7||s52==s35||s52==s36
+	   	 ||s52==s16||s52==s44||s52==s45||s52==s25||s52==s53||s52==s54||s52==s46||s52==s34||s52==s43||s52==s61||s52==s70||s52==s79)
+	 {
+		 document.getElementById("s52").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s52").className="green";
+	 }
+ }
+
+function b53()
+ {
+s47=document.getElementById("s47").value;
+s48=document.getElementById("s48").value;
+s49=document.getElementById("s49").value;
+s50=document.getElementById("s50").value;
+s51=document.getElementById("s51").value;
+s46=document.getElementById("s46").value;
+s34=document.getElementById("s34").value;
+s8=document.getElementById("s8").value;
+s36=document.getElementById("s36").value;
+ s43=document.getElementById("s43").value;
+ s17=document.getElementById("s17").value;
+ s45=document.getElementById("s45").value;
+ s52=document.getElementById("s52").value;
+ s26=document.getElementById("s26").value;
+ s54=document.getElementById("s54").value;
+ s35=document.getElementById("s35").value;
+ s44=document.getElementById("s44").value;
+ s53=document.getElementById("s53").value;
+ s62=document.getElementById("s62").value;
+ s71=document.getElementById("s71").value;
+ s80=document.getElementById("s80").value;
+ 
+ 
+
+	 if(s53==s47||s53==s48||s53==s49||s53==s50||s53==s51||s53==s46||s53==s34||s53==s8
+	  	||s53==s43||s53==s17||s53==s45||s53==s52||s53==s26||s53==s36||s53==s54||s53==s35||s53==s44||s53==s62||s53==s71||s53==s80)
+	 {	
+		 document.getElementById("s53").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s53").className="green";
+	 }
+ }
+
+function b54()
+ {
+s47=document.getElementById("s47").value;
+s48=document.getElementById("s48").value;
+s49=document.getElementById("s49").value;
+s50=document.getElementById("s50").value;
+s51=document.getElementById("s51").value;
+s46=document.getElementById("s46").value;
+s34=document.getElementById("s34").value;
+s35=document.getElementById("s35").value;
+s9=document.getElementById("s9").value;
+ s43=document.getElementById("s43").value;
+ s44=document.getElementById("s44").value;
+ s18=document.getElementById("s18").value;
+ s52=document.getElementById("s52").value;
+ s53=document.getElementById("s53").value;
+ s27=document.getElementById("s27").value;
+ s36=document.getElementById("s36").value;
+ s45=document.getElementById("s45").value;
+ s54=document.getElementById("s54").value;
+ s63=document.getElementById("s63").value;
+ s72=document.getElementById("s72").value;
+ s81=document.getElementById("s81").value;
+ 
+ 
+	 if(s54==s47||s54==s48||s54==s49||s54==s50||s54==s51||s54==s34||s54==s35||s54==s9
+	  	||s54==s43||s54==s44||s54==s18||s54==s52||s54==s53||s54==s27||s54==s46||s54==s36||s54==s45||s54==s63||s54==s72||s54==s81)
+	 
+	 {
+		 document.getElementById("s54").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s54").className="green";
+	 }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function b55()
+ {
+s58=document.getElementById("s58").value;
+s59=document.getElementById("s59").value;
+s60=document.getElementById("s60").value;
+s61=document.getElementById("s61").value;
+s62=document.getElementById("s62").value;
+s63=document.getElementById("s63").value;
+s56=document.getElementById("s56").value;
+s57=document.getElementById("s57").value;
+ s65=document.getElementById("s65").value;
+ s66=document.getElementById("s66").value;
+ s74=document.getElementById("s74").value;
+ s75=document.getElementById("s75").value;
+ s1=document.getElementById("s1").value;
+ s10=document.getElementById("s10").value;
+ s19=document.getElementById("s19").value;
+ s28=document.getElementById("s28").value;
+ s37=document.getElementById("s37").value;
+ s46=document.getElementById("s46").value;
+ s55=document.getElementById("s55").value;
+ s64=document.getElementById("s64").value;
+ s73=document.getElementById("s73").value;
+ 
+
+	 if(s55==s58||s55==s59||s55==s60||s55==s61||s55==s62||s55==s63||s55==s56||s55==s57||s55==s65
+	 ||s55==s66||s55==s74||s55==s75||s55==s10||s55==s19||s55==s28||s55==s37||s55==s46||s55==s1||s55==s64||s55==s73)
+	 {
+		 document.getElementById("s55").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s55").className="green";
+	 }
+ }
+function b56()
+ {
+s58=document.getElementById("s58").value;
+s59=document.getElementById("s59").value;
+s60=document.getElementById("s60").value;
+s61=document.getElementById("s61").value;
+s62=document.getElementById("s62").value;
+s63=document.getElementById("s63").value;
+s55=document.getElementById("s55").value;
+s57=document.getElementById("s57").value;
+ s64=document.getElementById("s64").value;
+ s66=document.getElementById("s66").value;
+ s73=document.getElementById("s73").value;
+ s75=document.getElementById("s75").value;
+ s2=document.getElementById("s2").value;
+ s11=document.getElementById("s11").value;
+ s20=document.getElementById("s20").value;
+ s29=document.getElementById("s29").value;
+ s38=document.getElementById("s38").value;
+ s47=document.getElementById("s47").value;
+ s56=document.getElementById("s56").value;
+ s65=document.getElementById("s65").value;
+ s74=document.getElementById("s74").value;
+ 
+ 
+
+	 if(s56==s58||s56==s59||s56==s60||s56==s61||s56==s62||s56==s63||s56==s55||s56==s57
+		||s56==s64||s56==s66||s56==s73||s56==s75||s56==s11||s56==s20||s56==s29||s56==s38||s56==s47||s56==s2||s56==s65||s56==s74)
+	 {
+		 document.getElementById("s56").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s56").className="green";
+	 }
+ }
+function b57()
+ {
+s58=document.getElementById("s58").value;
+s59=document.getElementById("s59").value;
+s60=document.getElementById("s60").value;
+s61=document.getElementById("s61").value;
+s62=document.getElementById("s62").value;
+s63=document.getElementById("s63").value;
+s55=document.getElementById("s55").value;
+s56=document.getElementById("s56").value;
+ s64=document.getElementById("s64").value;
+ s65=document.getElementById("s65").value;
+ s73=document.getElementById("s73").value;
+ s74=document.getElementById("s74").value;
+ s3=document.getElementById("s3").value;
+ s12=document.getElementById("s12").value;
+ s21=document.getElementById("s21").value;
+ s30=document.getElementById("s30").value;
+ s39=document.getElementById("s39").value;
+ s48=document.getElementById("s48").value;
+ s57=document.getElementById("s57").value;
+ s66=document.getElementById("s66").value;
+ s75=document.getElementById("s75").value;
+ 
+ 
+
+	 if(s57==s58||s57==s59||s57==s60||s57==s61||s57==s62||s57==s63||s57==s55||s57==s56
+	 	||s57==s64||s57==s65||s57==s73||s57==s74||s57==s12||s57==s21||s57==s30||s57==s39||s57==s48||s57==s3||s57==s66||s57==s75)
+	
+	 {
+		 document.getElementById("s57").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s57").className="green";
+	 }
+ }
+function b58()
+ {
+s55=document.getElementById("s55").value;
+s56=document.getElementById("s56").value;
+s57=document.getElementById("s57").value;
+s61=document.getElementById("s61").value;
+s62=document.getElementById("s62").value;
+s63=document.getElementById("s63").value;
+s59=document.getElementById("s59").value;
+s60=document.getElementById("s60").value;
+ s68=document.getElementById("s68").value;
+ s69=document.getElementById("s69").value;
+ s77=document.getElementById("s77").value;
+ s78=document.getElementById("s78").value;
+ s4=document.getElementById("s4").value;
+ s13=document.getElementById("s13").value;
+ s22=document.getElementById("s22").value;
+ s31=document.getElementById("s31").value;
+ s40=document.getElementById("s40").value;
+ s49=document.getElementById("s49").value;
+ s58=document.getElementById("s58").value;
+ s67=document.getElementById("s67").value;
+ s76=document.getElementById("s76").value;
+ 
+ 
+
+	 if(s58==s55||s58==s56||s58==s57||s58==s61||s58==s62||s58==s63||s58==s59||s58==s60
+	 	||s58==s68||s58==s69||s58==s77||s58==s78||s58==s13||s58==s22||s58==s31||s58==s40||s58==s49||s58==s4||s58==s67||s58==s76)
+		 {
+		 document.getElementById("s58").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s58").className="green";
+	 }
+ }
+
+function b59()
+ {
+s55=document.getElementById("s55").value;
+s56=document.getElementById("s56").value;
+s57=document.getElementById("s57").value;
+s61=document.getElementById("s61").value;
+s62=document.getElementById("s62").value;
+s63=document.getElementById("s63").value;
+s58=document.getElementById("s58").value;
+ s60=document.getElementById("s60").value;
+ s67=document.getElementById("s67").value;
+ s69=document.getElementById("s69").value;
+ s76=document.getElementById("s76").value;
+ s78=document.getElementById("s78").value;
+ s5=document.getElementById("s5").value;
+ s14=document.getElementById("s14").value;
+ s23=document.getElementById("s23").value;
+ s32=document.getElementById("s32").value;
+ s41=document.getElementById("s41").value;
+ s50=document.getElementById("s50").value;
+ s59=document.getElementById("s59").value;
+ s68=document.getElementById("s68").value;
+ s77=document.getElementById("s77").value;
+ 
+ 
+
+	 if(s59==s55||s59==s56||s59==s57||s59==s61||s59==s62||s59==s63||s59==s58||s59==s60
+	 	 	||s59==s67||s59==s69||s59==s76||s59==s78||s59==s14||s59==s23||s59==s32||s59==s41||s59==s50||s59==s5||s59==s68||s59==s77)
+
+	 {
+		 document.getElementById("s59").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s59").className="green";
+	 }
+ }
+
+function b60()
+ {
+s55=document.getElementById("s55").value;
+s56=document.getElementById("s56").value;
+s57=document.getElementById("s57").value;
+s61=document.getElementById("s61").value;
+s62=document.getElementById("s62").value;
+s63=document.getElementById("s63").value;
+s58=document.getElementById("s58").value;
+s59=document.getElementById("s59").value;
+ s67=document.getElementById("s67").value;
+ s68=document.getElementById("s68").value;
+ s76=document.getElementById("s76").value;
+ s77=document.getElementById("s77").value;
+ s6=document.getElementById("s6").value;
+ s15=document.getElementById("s15").value;
+ s24=document.getElementById("s24").value;
+ s33=document.getElementById("s33").value;
+ s42=document.getElementById("s42").value;
+ s51=document.getElementById("s51").value;
+ s60=document.getElementById("s60").value;
+ s69=document.getElementById("s69").value;
+ s78=document.getElementById("s78").value;
+ 
+ 
+
+	 if(s60==s55||s60==s56||s60==s57||s60==s61||s60==s62||s60==s63||s60==s58||s60==s59
+	  	 	||s60==s67||s60==s68||s60==s76||s60==s77||s60==s15||s60==s24||s60==s33||s60==s42||s60==s51||s60==s6||s60==s69||s60==s78)
+	 {
+		 document.getElementById("s60").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s60").className="green";
+	 }
+ }
+
+function b61()
+ {
+s55=document.getElementById("s55").value;
+s56=document.getElementById("s56").value;
+s57=document.getElementById("s57").value;
+s58=document.getElementById("s58").value;
+s59=document.getElementById("s59").value;
+s60=document.getElementById("s60").value;
+s62=document.getElementById("s62").value;
+s63=document.getElementById("s63").value;
+ s71=document.getElementById("s71").value;
+ s72=document.getElementById("s72").value;
+ s80=document.getElementById("s80").value;
+ s81=document.getElementById("s81").value;
+ s7=document.getElementById("s7").value;
+ s16=document.getElementById("s16").value;
+ s25=document.getElementById("s25").value;
+ s34=document.getElementById("s34").value;
+ s43=document.getElementById("s43").value;
+ s52=document.getElementById("s52").value;
+ s61=document.getElementById("s61").value;
+ s70=document.getElementById("s70").value;
+ s79=document.getElementById("s79").value;
+ 
+ 
+	 if(s61==s55||s61==s56||s61==s57||s61==s58||s61==s59||s61==s60||s61==s62||s61==s63
+	   	 	||s61==s71||s61==s72||s61==s80||s61==s81||s61==s16||s61==s25||s61==s34||s61==s43||s61==s52||s61==s7||s61==s70||s61==s79)
+	 {
+		 document.getElementById("s61").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s61").className="green";
+	 }
+ }
+
+function b62()
+ {
+s55=document.getElementById("s55").value;
+s56=document.getElementById("s56").value;
+s57=document.getElementById("s57").value;
+s58=document.getElementById("s58").value;
+s59=document.getElementById("s59").value;
+s60=document.getElementById("s60").value;
+s61=document.getElementById("s61").value;
+s63=document.getElementById("s63").value;
+ s70=document.getElementById("s70").value;
+ s72=document.getElementById("s72").value;
+ s79=document.getElementById("s79").value;
+ s81=document.getElementById("s81").value;
+ s8=document.getElementById("s8").value;
+ s17=document.getElementById("s17").value;
+ s26=document.getElementById("s26").value;
+ s35=document.getElementById("s35").value;
+ s44=document.getElementById("s44").value;
+ s53=document.getElementById("s53").value;
+ s62=document.getElementById("s62").value;
+ s71=document.getElementById("s71").value;
+ s80=document.getElementById("s80").value;
+ 
+ 
+
+	 if(s62==s55||s62==s56||s62==s57||s62==s58||s62==s59||s62==s60||s62==s61||s62==s63
+	  	||s62==s70||s62==s72||s62==s79||s62==s81||s62==s17||s62==s26||s62==s35||s62==s44||s62==s53||s62==s8||s62==s71||s62==s80)
+	 	 {
+		 document.getElementById("s62").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s62").className="green";
+	 }
+ }
+
+function b63()
+ {
+s55=document.getElementById("s55").value;
+s56=document.getElementById("s56").value;
+s57=document.getElementById("s57").value;
+s58=document.getElementById("s58").value;
+s59=document.getElementById("s59").value;
+s60=document.getElementById("s60").value;
+s61=document.getElementById("s61").value;
+s62=document.getElementById("s62").value;
+ s70=document.getElementById("s70").value;
+ s71=document.getElementById("s71").value;
+ s79=document.getElementById("s79").value;
+ s80=document.getElementById("s80").value;
+ s9=document.getElementById("s9").value;
+ s18=document.getElementById("s18").value;
+ s27=document.getElementById("s27").value;
+ s36=document.getElementById("s36").value;
+ s45=document.getElementById("s45").value;
+ s54=document.getElementById("s54").value;
+ s63=document.getElementById("s63").value;
+ s72=document.getElementById("s72").value;
+ s81=document.getElementById("s81").value;
+ 
+ 
+
+	 if(s63==s55||s63==s56||s63==s57||s63==s58||s63==s59||s63==s60||s63==s61||s63==s62
+	  	||s63==s70||s63==s71||s63==s79||s63==s80||s63==s18||s63==s27||s63==s36||s63==s45||s63==s54||s63==s9||s63==s72||s63==s81)
+	 
+	 {
+		 document.getElementById("s63").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s63").className="green";
+	 }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+function b64()
+ {
+s67=document.getElementById("s67").value;
+s68=document.getElementById("s68").value;
+s69=document.getElementById("s69").value;
+s70=document.getElementById("s70").value;
+s71=document.getElementById("s71").value;
+s72=document.getElementById("s72").value;
+s56=document.getElementById("s56").value;
+s57=document.getElementById("s57").value;
+ s65=document.getElementById("s65").value;
+ s66=document.getElementById("s66").value;
+ s74=document.getElementById("s74").value;
+ s75=document.getElementById("s75").value;
+ s1=document.getElementById("s1").value;
+ s10=document.getElementById("s10").value;
+ s19=document.getElementById("s19").value;
+ s28=document.getElementById("s28").value;
+ s37=document.getElementById("s37").value;
+ s46=document.getElementById("s46").value;
+ s55=document.getElementById("s55").value;
+ s64=document.getElementById("s64").value;
+ s73=document.getElementById("s73").value;
+ 
+
+	 if(s64==s67||s64==s68||s64==s69||s64==s70||s64==s71||s64==s72||s64==s56||s64==s57||s64==s65
+	 ||s64==s66||s64==s74||s64==s75||s64==s10||s64==s19||s64==s28||s64==s37||s64==s46||s64==s1||s64==s55||s64==s73)
+	 {
+		 document.getElementById("s64").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s64").className="green";
+	 }
+ }
+function b65()
+ {
+s67=document.getElementById("s67").value;
+s68=document.getElementById("s68").value;
+s69=document.getElementById("s69").value;
+s70=document.getElementById("s70").value;
+s71=document.getElementById("s71").value;
+s72=document.getElementById("s72").value;
+s55=document.getElementById("s55").value;
+s57=document.getElementById("s57").value;
+ s64=document.getElementById("s64").value;
+ s66=document.getElementById("s66").value;
+ s73=document.getElementById("s73").value;
+ s75=document.getElementById("s75").value;
+ s2=document.getElementById("s2").value;
+ s11=document.getElementById("s11").value;
+ s20=document.getElementById("s20").value;
+ s29=document.getElementById("s29").value;
+ s38=document.getElementById("s38").value;
+ s47=document.getElementById("s47").value;
+ s56=document.getElementById("s56").value;
+ s65=document.getElementById("s65").value;
+ s74=document.getElementById("s74").value;
+ 
+ 
+
+	 if(s65==s67||s65==s68||s65==s69||s65==s70||s65==s71||s65==s72||s65==s55||s65==s57
+		||s65==s64||s65==s66||s65==s73||s65==s75||s65==s11||s65==s20||s65==s29||s65==s38||s65==s47||s65==s2||s65==s56||s65==s74)
+	 {
+		 document.getElementById("s65").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s65").className="green";
+	 }
+ }
+function b66()
+ {
+s67=document.getElementById("s67").value;
+s68=document.getElementById("s68").value;
+s69=document.getElementById("s69").value;
+s70=document.getElementById("s70").value;
+s71=document.getElementById("s71").value;
+s72=document.getElementById("s72").value;
+s55=document.getElementById("s55").value;
+s56=document.getElementById("s56").value;
+ s64=document.getElementById("s64").value;
+ s65=document.getElementById("s65").value;
+ s73=document.getElementById("s73").value;
+ s74=document.getElementById("s74").value;
+ s3=document.getElementById("s3").value;
+ s12=document.getElementById("s12").value;
+ s21=document.getElementById("s21").value;
+ s30=document.getElementById("s30").value;
+ s39=document.getElementById("s39").value;
+ s48=document.getElementById("s48").value;
+ s57=document.getElementById("s57").value;
+ s66=document.getElementById("s66").value;
+ s75=document.getElementById("s75").value;
+ 
+ 
+
+	 if(s66==s67||s66==s68||s66==s69||s66==s70||s66==s71||s66==s72||s66==s55||s66==s56
+	 	||s66==s64||s66==s65||s66==s73||s66==s74||s66==s12||s66==s21||s66==s30||s66==s39||s66==s48||s66==s3||s66==s57||s66==s75)
+	
+	 {
+		 document.getElementById("s66").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s66").className="green";
+	 }
+ }
+function b67()
+ {
+s64=document.getElementById("s64").value;
+s65=document.getElementById("s65").value;
+s66=document.getElementById("s66").value;
+s70=document.getElementById("s70").value;
+s71=document.getElementById("s71").value;
+s72=document.getElementById("s72").value;
+s59=document.getElementById("s59").value;
+s60=document.getElementById("s60").value;
+ s68=document.getElementById("s68").value;
+ s69=document.getElementById("s69").value;
+ s77=document.getElementById("s77").value;
+ s78=document.getElementById("s78").value;
+ s4=document.getElementById("s4").value;
+ s13=document.getElementById("s13").value;
+ s22=document.getElementById("s22").value;
+ s31=document.getElementById("s31").value;
+ s40=document.getElementById("s40").value;
+ s49=document.getElementById("s49").value;
+ s58=document.getElementById("s58").value;
+ s67=document.getElementById("s67").value;
+ s76=document.getElementById("s76").value;
+ 
+ 
+
+	 if(s67==s64||s67==s65||s67==s66||s67==s70||s67==s71||s67==s72||s67==s59||s67==s60
+	 	||s67==s68||s67==s69||s67==s77||s67==s78||s67==s13||s67==s22||s67==s31||s67==s40||s67==s49||s67==s4||s67==s58||s67==s76)
+		 {
+		 document.getElementById("s67").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s67").className="green";
+	 }
+ }
+
+function b68()
+ {
+s64=document.getElementById("s64").value;
+s65=document.getElementById("s65").value;
+s66=document.getElementById("s66").value;
+s70=document.getElementById("s70").value;
+s71=document.getElementById("s71").value;
+s72=document.getElementById("s72").value;
+s58=document.getElementById("s58").value;
+ s60=document.getElementById("s60").value;
+ s67=document.getElementById("s67").value;
+ s69=document.getElementById("s69").value;
+ s76=document.getElementById("s76").value;
+ s78=document.getElementById("s78").value;
+ s5=document.getElementById("s5").value;
+ s14=document.getElementById("s14").value;
+ s23=document.getElementById("s23").value;
+ s32=document.getElementById("s32").value;
+ s41=document.getElementById("s41").value;
+ s50=document.getElementById("s50").value;
+ s59=document.getElementById("s59").value;
+ s68=document.getElementById("s68").value;
+ s77=document.getElementById("s77").value;
+ 
+ 
+
+	 if(s68==s64||s68==s65||s68==s66||s68==s70||s68==s71||s68==s72||s68==s58||s68==s60
+	 	 ||s68==s67||s68==s69||s68==s76||s68==s78||s68==s14||s68==s23||s68==s32||s68==s41||s68==s50||s68==s5||s68==s59||s68==s77)
+
+	 {
+		 document.getElementById("s68").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s68").className="green";
+	 }
+ }
+
+function b69()
+ {
+s64=document.getElementById("s64").value;
+s65=document.getElementById("s65").value;
+s66=document.getElementById("s66").value;
+s70=document.getElementById("s70").value;
+s71=document.getElementById("s71").value;
+s72=document.getElementById("s72").value;
+s58=document.getElementById("s58").value;
+s59=document.getElementById("s59").value;
+ s67=document.getElementById("s67").value;
+ s68=document.getElementById("s68").value;
+ s76=document.getElementById("s76").value;
+ s77=document.getElementById("s77").value;
+ s6=document.getElementById("s6").value;
+ s15=document.getElementById("s15").value;
+ s24=document.getElementById("s24").value;
+ s33=document.getElementById("s33").value;
+ s42=document.getElementById("s42").value;
+ s51=document.getElementById("s51").value;
+ s60=document.getElementById("s60").value;
+ s69=document.getElementById("s69").value;
+ s78=document.getElementById("s78").value;
+ 
+ 
+
+	 if(s69==s64||s69==s65||s69==s66||s69==s70||s69==s71||s69==s72||s69==s58||s69==s59
+	  	 	||s69==s67||s69==s68||s69==s76||s69==s77||s69==s15||s69==s24||s69==s33||s69==s42||s69==s51||s69==s6||s69==s60||s69==s78)
+	 {
+		 document.getElementById("s69").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s69").className="green";
+	 }
+ }
+
+function b70()
+ {
+s64=document.getElementById("s64").value;
+s65=document.getElementById("s65").value;
+s66=document.getElementById("s66").value;
+s67=document.getElementById("s67").value;
+s68=document.getElementById("s68").value;
+s69=document.getElementById("s69").value;
+s62=document.getElementById("s62").value;
+s63=document.getElementById("s63").value;
+ s71=document.getElementById("s71").value;
+ s72=document.getElementById("s72").value;
+ s80=document.getElementById("s80").value;
+ s81=document.getElementById("s81").value;
+ s7=document.getElementById("s7").value;
+ s16=document.getElementById("s16").value;
+ s25=document.getElementById("s25").value;
+ s34=document.getElementById("s34").value;
+ s43=document.getElementById("s43").value;
+ s52=document.getElementById("s52").value;
+ s61=document.getElementById("s61").value;
+ s70=document.getElementById("s70").value;
+ s79=document.getElementById("s79").value;
+ 
+ 
+	 if(s70==s64||s70==s65||s70==s66||s70==s67||s70==s68||s70==s69||s70==s62||s70==s63
+	   	 	||s70==s71||s70==s72||s70==s80||s70==s81||s70==s16||s70==s25||s70==s34||s70==s43||s70==s52||s70==s7||s70==s61||s70==s79)
+	 {
+		 document.getElementById("s70").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s70").className="green";
+	 }
+ }
+
+function b71()
+ {
+s64=document.getElementById("s64").value;
+s65=document.getElementById("s65").value;
+s66=document.getElementById("s66").value;
+s67=document.getElementById("s67").value;
+s68=document.getElementById("s68").value;
+s69=document.getElementById("s69").value;
+s61=document.getElementById("s61").value;
+s63=document.getElementById("s63").value;
+ s70=document.getElementById("s70").value;
+ s72=document.getElementById("s72").value;
+ s79=document.getElementById("s79").value;
+ s81=document.getElementById("s81").value;
+ s8=document.getElementById("s8").value;
+ s17=document.getElementById("s17").value;
+ s26=document.getElementById("s26").value;
+ s35=document.getElementById("s35").value;
+ s44=document.getElementById("s44").value;
+ s53=document.getElementById("s53").value;
+ s62=document.getElementById("s62").value;
+ s71=document.getElementById("s71").value;
+ s80=document.getElementById("s80").value;
+ 
+ 
+
+	 if(s71==s64||s71==s65||s71==s66||s71==s67||s71==s68||s71==s69||s71==s61||s71==s63
+	  	||s71==s70||s71==s72||s71==s79||s71==s81||s71==s17||s71==s26||s71==s35||s71==s44||s71==s53||s71==s8||s71==s62||s71==s80)
+	 	 {
+		 document.getElementById("s71").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s71").className="green";
+	 }
+ }
+
+function b72()
+ {
+s64=document.getElementById("s64").value;
+s65=document.getElementById("s65").value;
+s66=document.getElementById("s66").value;
+s67=document.getElementById("s67").value;
+s68=document.getElementById("s68").value;
+s69=document.getElementById("s69").value;
+s61=document.getElementById("s61").value;
+s62=document.getElementById("s62").value;
+ s70=document.getElementById("s70").value;
+ s71=document.getElementById("s71").value;
+ s79=document.getElementById("s79").value;
+ s80=document.getElementById("s80").value;
+ s9=document.getElementById("s9").value;
+ s18=document.getElementById("s18").value;
+ s27=document.getElementById("s27").value;
+ s36=document.getElementById("s36").value;
+ s45=document.getElementById("s45").value;
+ s54=document.getElementById("s54").value;
+ s63=document.getElementById("s63").value;
+ s72=document.getElementById("s72").value;
+ s81=document.getElementById("s81").value;
+ 
+ 
+
+	 if(s72==s64||s72==s65||s72==s66||s72==s67||s72==s68||s72==s69||s72==s61||s72==s62
+	  	||s72==s70||s72==s71||s72==s79||s72==s80||s72==s18||s72==s27||s72==s36||s72==s45||s72==s54||s72==s9||s72==s63||s72==s81)
+	 
+	 {
+		 document.getElementById("s72").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s72").className="green";
+	 }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function b73()
+ {
+s76=document.getElementById("s76").value;
+s77=document.getElementById("s77").value;
+s78=document.getElementById("s78").value;
+s79=document.getElementById("s79").value;
+s80=document.getElementById("s80").value;
+s81=document.getElementById("s81").value;
+s56=document.getElementById("s56").value;
+s57=document.getElementById("s57").value;
+ s65=document.getElementById("s65").value;
+ s66=document.getElementById("s66").value;
+ s74=document.getElementById("s74").value;
+ s75=document.getElementById("s75").value;
+ s1=document.getElementById("s1").value;
+ s10=document.getElementById("s10").value;
+ s19=document.getElementById("s19").value;
+ s28=document.getElementById("s28").value;
+ s37=document.getElementById("s37").value;
+ s46=document.getElementById("s46").value;
+ s55=document.getElementById("s55").value;
+ s64=document.getElementById("s64").value;
+ s73=document.getElementById("s73").value;
+ 
+
+	 if(s73==s76||s73==s77||s73==s78||s73==s79||s73==s80||s73==s81||s73==s56||s73==s57||s73==s65
+	 ||s73==s66||s73==s74||s73==s75||s73==s10||s73==s19||s73==s28||s73==s37||s73==s46||s73==s1||s73==s55||s73==s64)
+	 {
+		 document.getElementById("s73").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s73").className="green";
+	 }
+ }
+function b74()
+ {
+s76=document.getElementById("s76").value;
+s77=document.getElementById("s77").value;
+s78=document.getElementById("s78").value;
+s79=document.getElementById("s79").value;
+s80=document.getElementById("s80").value;
+s81=document.getElementById("s81").value;
+s55=document.getElementById("s55").value;
+s57=document.getElementById("s57").value;
+ s64=document.getElementById("s64").value;
+ s66=document.getElementById("s66").value;
+ s73=document.getElementById("s73").value;
+ s75=document.getElementById("s75").value;
+ s2=document.getElementById("s2").value;
+ s11=document.getElementById("s11").value;
+ s20=document.getElementById("s20").value;
+ s29=document.getElementById("s29").value;
+ s38=document.getElementById("s38").value;
+ s47=document.getElementById("s47").value;
+ s56=document.getElementById("s56").value;
+ s65=document.getElementById("s65").value;
+ s74=document.getElementById("s74").value;
+ 
+ 
+
+	 if(s74==s76||s74==s77||s74==s78||s74==s79||s74==s80||s74==s81||s74==s55||s74==s57
+		||s74==s64||s74==s66||s74==s73||s74==s75||s74==s11||s74==s20||s74==s29||s74==s38||s74==s47||s74==s2||s74==s56||s74==s65)
+	 {
+		 document.getElementById("s74").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s74").className="green";
+	 }
+ }
+function b75()
+ {
+s76=document.getElementById("s76").value;
+s77=document.getElementById("s77").value;
+s78=document.getElementById("s78").value;
+s79=document.getElementById("s79").value;
+s80=document.getElementById("s80").value;
+s81=document.getElementById("s81").value;
+s55=document.getElementById("s55").value;
+s56=document.getElementById("s56").value;
+ s64=document.getElementById("s64").value;
+ s65=document.getElementById("s65").value;
+ s73=document.getElementById("s73").value;
+ s74=document.getElementById("s74").value;
+ s3=document.getElementById("s3").value;
+ s12=document.getElementById("s12").value;
+ s21=document.getElementById("s21").value;
+ s30=document.getElementById("s30").value;
+ s39=document.getElementById("s39").value;
+ s48=document.getElementById("s48").value;
+ s57=document.getElementById("s57").value;
+ s66=document.getElementById("s66").value;
+ s75=document.getElementById("s75").value;
+ 
+ 
+
+	 if(s75==s76||s75==s77||s75==s78||s75==s79||s75==s80||s75==s81||s75==s55||s75==s56
+	 	||s75==s64||s75==s65||s75==s73||s75==s74||s75==s12||s75==s21||s75==s30||s75==s39||s75==s48||s75==s3||s75==s57||s75==s66)
+	
+	 {
+		 document.getElementById("s75").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s75").className="green";
+	 }
+ }
+function b76()
+ {
+s73=document.getElementById("s73").value;
+s74=document.getElementById("s74").value;
+s75=document.getElementById("s75").value;
+s79=document.getElementById("s79").value;
+s80=document.getElementById("s80").value;
+s81=document.getElementById("s81").value;
+s59=document.getElementById("s59").value;
+s60=document.getElementById("s60").value;
+ s68=document.getElementById("s68").value;
+ s69=document.getElementById("s69").value;
+ s77=document.getElementById("s77").value;
+ s78=document.getElementById("s78").value;
+ s4=document.getElementById("s4").value;
+ s13=document.getElementById("s13").value;
+ s22=document.getElementById("s22").value;
+ s31=document.getElementById("s31").value;
+ s40=document.getElementById("s40").value;
+ s49=document.getElementById("s49").value;
+ s58=document.getElementById("s58").value;
+ s67=document.getElementById("s67").value;
+ s76=document.getElementById("s76").value;
+ 
+ 
+
+	 if(s76==s73||s76==s74||s76==s75||s76==s79||s76==s80||s76==s81||s76==s59||s76==s60
+	 	||s76==s68||s76==s69||s76==s77||s76==s78||s76==s13||s76==s22||s76==s31||s76==s40||s76==s49||s76==s4||s76==s58||s76==s67)
+		 {
+		 document.getElementById("s76").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s76").className="green";
+	 }
+ }
+
+function b77()
+ {
+s73=document.getElementById("s73").value;
+s74=document.getElementById("s74").value;
+s75=document.getElementById("s75").value;
+s79=document.getElementById("s79").value;
+s80=document.getElementById("s80").value;
+s81=document.getElementById("s81").value;
+s58=document.getElementById("s58").value;
+ s60=document.getElementById("s60").value;
+ s67=document.getElementById("s67").value;
+ s69=document.getElementById("s69").value;
+ s76=document.getElementById("s76").value;
+ s78=document.getElementById("s78").value;
+ s5=document.getElementById("s5").value;
+ s14=document.getElementById("s14").value;
+ s23=document.getElementById("s23").value;
+ s32=document.getElementById("s32").value;
+ s41=document.getElementById("s41").value;
+ s50=document.getElementById("s50").value;
+ s59=document.getElementById("s59").value;
+ s68=document.getElementById("s68").value;
+ s77=document.getElementById("s77").value;
+ 
+ 
+
+	 if(s77==s73||s77==s74||s77==s75||s77==s79||s77==s80||s77==s81||s77==s58||s77==s60
+	 	 ||s77==s67||s77==s69||s77==s76||s77==s78||s77==s14||s77==s23||s77==s32||s77==s41||s77==s50||s77==s5||s77==s59||s77==s68)
+
+	 {
+		 document.getElementById("s77").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s77").className="green";
+	 }
+ }
+
+function b78()
+ {
+s73=document.getElementById("s73").value;
+s74=document.getElementById("s74").value;
+s75=document.getElementById("s75").value;
+s79=document.getElementById("s79").value;
+s80=document.getElementById("s80").value;
+s81=document.getElementById("s81").value;
+s58=document.getElementById("s58").value;
+s59=document.getElementById("s59").value;
+ s67=document.getElementById("s67").value;
+ s68=document.getElementById("s68").value;
+ s76=document.getElementById("s76").value;
+ s77=document.getElementById("s77").value;
+ s6=document.getElementById("s6").value;
+ s15=document.getElementById("s15").value;
+ s24=document.getElementById("s24").value;
+ s33=document.getElementById("s33").value;
+ s42=document.getElementById("s42").value;
+ s51=document.getElementById("s51").value;
+ s60=document.getElementById("s60").value;
+ s69=document.getElementById("s69").value;
+ s78=document.getElementById("s78").value;
+ 
+ 
+
+	 if(s78==s73||s78==s74||s78==s75||s78==s79||s78==s80||s78==s81||s78==s58||s78==s59
+	  	 ||s78==s67||s78==s68||s78==s76||s78==s77||s78==s15||s78==s24||s78==s33||s78==s42||s78==s51||s78==s6||s78==s60||s78==s69)
+	 {
+		 document.getElementById("s78").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s78").className="green";
+	 }
+ }
+
+function b79()
+ {
+s73=document.getElementById("s73").value;
+s74=document.getElementById("s74").value;
+s75=document.getElementById("s75").value;
+s76=document.getElementById("s76").value;
+s77=document.getElementById("s77").value;
+s78=document.getElementById("s78").value;
+s62=document.getElementById("s62").value;
+s63=document.getElementById("s63").value;
+ s71=document.getElementById("s71").value;
+ s72=document.getElementById("s72").value;
+ s80=document.getElementById("s80").value;
+ s81=document.getElementById("s81").value;
+ s7=document.getElementById("s7").value;
+ s16=document.getElementById("s16").value;
+ s25=document.getElementById("s25").value;
+ s34=document.getElementById("s34").value;
+ s43=document.getElementById("s43").value;
+ s52=document.getElementById("s52").value;
+ s61=document.getElementById("s61").value;
+ s70=document.getElementById("s70").value;
+ s79=document.getElementById("s79").value;
+ 
+ 
+	 if(s79==s73||s79==s74||s79==s75||s79==s76||s79==s77||s79==s78||s79==s62||s79==s63
+	  	||s79==s71||s79==s72||s79==s80||s79==s81||s79==s16||s79==s25||s79==s34||s79==s43||s79==s52||s79==s7||s79==s61||s79==s70)
+	 {
+		 document.getElementById("s79").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s79").className="green";
+	 }
+ }
+
+function b80()
+ {
+s73=document.getElementById("s73").value;
+s74=document.getElementById("s74").value;
+s75=document.getElementById("s75").value;
+s76=document.getElementById("s76").value;
+s77=document.getElementById("s77").value;
+s78=document.getElementById("s78").value;
+s61=document.getElementById("s61").value;
+s63=document.getElementById("s63").value;
+ s70=document.getElementById("s70").value;
+ s72=document.getElementById("s72").value;
+ s79=document.getElementById("s79").value;
+ s81=document.getElementById("s81").value;
+ s8=document.getElementById("s8").value;
+ s17=document.getElementById("s17").value;
+ s26=document.getElementById("s26").value;
+ s35=document.getElementById("s35").value;
+ s44=document.getElementById("s44").value;
+ s53=document.getElementById("s53").value;
+ s62=document.getElementById("s62").value;
+ s71=document.getElementById("s71").value;
+ s80=document.getElementById("s80").value;
+ 
+ 
+
+	 if(s80==s73||s80==s74||s80==s75||s80==s76||s80==s77||s80==s78||s80==s61||s80==s63
+	  	||s80==s70||s80==s72||s80==s79||s80==s81||s80==s17||s80==s26||s80==s35||s80==s44||s80==s53||s80==s8||s80==s62||s80==s71)
+	 	 {
+		 document.getElementById("s80").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s80").className="green";
+	 }
+ }
+
+function b81()
+ {
+s73=document.getElementById("s73").value;
+s74=document.getElementById("s74").value;
+s75=document.getElementById("s75").value;
+s76=document.getElementById("s76").value;
+s77=document.getElementById("s77").value;
+s78=document.getElementById("s78").value;
+s61=document.getElementById("s61").value;
+s62=document.getElementById("s62").value;
+ s70=document.getElementById("s70").value;
+ s71=document.getElementById("s71").value;
+ s79=document.getElementById("s79").value;
+ s80=document.getElementById("s80").value;
+ s9=document.getElementById("s9").value;
+ s18=document.getElementById("s18").value;
+ s27=document.getElementById("s27").value;
+ s36=document.getElementById("s36").value;
+ s45=document.getElementById("s45").value;
+ s54=document.getElementById("s54").value;
+ s63=document.getElementById("s63").value;
+ s72=document.getElementById("s72").value;
+ s81=document.getElementById("s81").value;
+ 
+ 
+
+	 if(s81==s73||s81==s74||s81==s75||s81==s76||s81==s77||s81==s78||s81==s61||s81==s62
+	  	||s81==s70||s81==s71||s81==s79||s81==s80||s81==s18||s81==s27||s81==s36||s81==s45||s81==s54||s81==s9||s81==s63||s81==s72)
+	 
+	 {
+		 document.getElementById("s81").className="red";
+	 }
+	 else
+	 {
+		 document.getElementById("s81").className="green";
+	 }
+ }
+
+</script>
+</html>
